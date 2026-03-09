@@ -1,0 +1,20 @@
+--- PracticeTab.jsx ---
+import React, { useState } from "react";
+import Card from "../common/Card";
+import Btn from "../common/Btn";
+import QuizSection from "../practice/QuizSection";
+import WordMatch from "../practice/WordMatch";
+import FillBlank from "../practice/FillBlank";
+--- ReadingTab.jsx ---
+import React, { useState, useEffect } from "react";
+import Card from "../common/Card";
+import Btn from "../common/Btn";
+import { READING_TEXTS } from "../../data/readingData";
+import { READING_QUESTIONS } from "../../data/readingQuestions";
+--- VocabTab.jsx ---
+import React, { useState } from "react";
+import Card from "../common/Card";
+import ProgressBar from "../common/ProgressBar";
+import Btn from "../common/Btn";
+import FlashCard from "../practice/FlashCard";
+import { VOCABULARY } from "../../data/levelData";

@@ -1,0 +1,1231 @@
+{
+    "C1": [
+        [
+            {
+                "q": "Was schätzen viele internationale Studierende an Deutschland besonders?",
+                "options": [
+                    "Die hohen Temperaturen",
+                    "Die niedrigen Studiengebühren und die hohe Qualität",
+                    "Die kurzen Semesterferien",
+                    "Die einfachen Prüfungen"
+                ],
+                "answer": 1
+            },
+            {
+                "q": "Was ist eine Herausforderung für Studierende aus dem Ausland?",
+                "options": [
+                    "Zu viel Freizeit",
+                    "Das Zurechtfinden in einem neuen Land und Hochschulsystem",
+                    "Zu viele Partys",
+                    "Nur deutsche Literatur"
+                ],
+                "answer": 1
+            },
+            {
+                "q": "Welche Arbeitsweise wird im deutschen Hochschulsystem oft verlangt?",
+                "options": [
+                    "Ausschließlich Gruppenarbeit",
+                    "Nur Multiple-Choice",
+                    "Eigenständiges Arbeiten",
+                    "Keine",
+                    "Gar keine Arbeit"
+                ],
+                "answer": 2
+            },
+            {
+                "q": "Was gehört zum wissenschaftlichen Arbeiten laut Text?",
+                "options": [
+                    "Umfangreiche Literaturrecherche",
+                    "Romane schreiben",
+                    "Bilder malen",
+                    "Programmieren"
+                ],
+                "answer": 0
+            },
+            {
+                "q": "Welche Textsorte muss oft verfasst werden?",
+                "options": [
+                    "Gedichte",
+                    "Wissenschaftliche Texte",
+                    "Tagebücher",
+                    "Zeitungsartikel"
+                ],
+                "answer": 1
+            },
+            {
+                "q": "Was profitiert jemand, der diese Hürden meistert?",
+                "options": [
+                    "Er muss nie wieder arbeiten",
+                    "Hervorragende berufliche Perspektiven",
+                    "Kostenloses Wohnen",
+                    "Ein eigenes Auto"
+                ],
+                "answer": 1
+            },
+            {
+                "q": "Welche Art von Netzwerk kann man aufbauen?",
+                "options": [
+                    "Ein lokales",
+                    "Ein sehr kleines",
+                    "Ein internationales Netzwerk",
+                    "Nur ein digitales"
+                ],
+                "answer": 2
+            },
+            {
+                "q": "Wie wird das Hochschulsystem im Vergleich zu anderen beschrieben?",
+                "options": [
+                    "Als identisch",
+                    "Als anders",
+                    "Als viel leichter",
+                    "Als nicht existent"
+                ],
+                "answer": 1
+            },
+            {
+                "q": "Welche Zielgruppe spricht der Text primär an?",
+                "options": [
+                    "Rentner",
+                    "Internationale Studierende",
+                    "Kindergartenkinder",
+                    "Touristen"
+                ],
+                "answer": 1
+            },
+            {
+                "q": "Was ist die Kernaussage des Textes über das Studium in Deutschland?",
+                "options": [
+                    "Es ist anspruchsvoll, aber es lohnt sich",
+                    "Es ist unmöglich zu schaffen",
+                    "Es ist nur für Deutsche",
+                    "Es hat keine Vorteile"
+                ],
+                "answer": 0
+            }
+        ],
+        [
+            {
+                "q": "Als was wird Künstliche Intelligenz im Text bezeichnet?",
+                "options": [
+                    "Als Modeerscheinung",
+                    "Als prägende technologische Revolution unseres Jahrzehnts",
+                    "Als gefährliches Spielzeug",
+                    "Als unwichtig"
+                ],
+                "answer": 1
+            },
+            {
+                "q": "Welcher Anwendungsbereich von KI wird NICHT explizit genannt?",
+                "options": [
+                    "Medizinische Diagnostik",
+                    "Autonomes Fahren",
+                    "Generierung von Texten und Kunst",
+                    "Kochen von Mahlzeiten"
+                ],
+                "answer": 3
+            },
+            {
+                "q": "Worauf verweisen euphorische Prognosen bezüglich KI?",
+                "options": [
+                    "Auf den Untergang der Menschheit",
+                    "Auf beispielloses Potenzial zur Effizienzsteigerung",
+                    "Auf langsames Internet",
+                    "Auf teurere Computer"
+                ],
+                "answer": 1
+            },
+            {
+                "q": "Welches globale Problem könnte KI laut Text helfen zu modellieren?",
+                "options": [
+                    "Den Verkehr in Kleinstädten",
+                    "Klimaveränderungen",
+                    "Den Aktienmarkt",
+                    "Sportergebnisse"
+                ],
+                "answer": 1
+            },
+            {
+                "q": "Welche Fähigkeit von KI wird hervorgehoben?",
+                "options": [
+                    "Sie kann riesige Datenmengen in Bruchteilen von Sekunden analysieren",
+                    "Sie hat Gefühle",
+                    "Sie braucht keinen Strom",
+                    "Sie schläft"
+                ],
+                "answer": 0
+            },
+            {
+                "q": "Welche massiven Sorgen haben Skeptiker?",
+                "options": [
+                    "Dass KI zu kreativ ist",
+                    "Arbeitsplatzverluste aufgrund der Automatisierung",
+                    "Dass sie zu teuer ist",
+                    "Dass sie langweilig ist"
+                ],
+                "answer": 1
+            },
+            {
+                "q": "Welche Art von Aufgaben ist besonders von Automatisierung bedroht?",
+                "options": [
+                    "Körperliche Arbeit",
+                    "Intellektuelle und repetitive Tätigkeiten",
+                    "Nur Kunst",
+                    "Nur Politik"
+                ],
+                "answer": 1
+            },
+            {
+                "q": "Welches spezifische Phänomen wirft Fragen zur Verlässlichkeit von Informationen auf?",
+                "options": [
+                    "E-Mails",
+                    "Deepfakes",
+                    "Taschenrechner",
+                    "Podcasts"
+                ],
+                "answer": 1
+            },
+            {
+                "q": "Was ist das ultimative Fazit der Debatte laut Text?",
+                "options": [
+                    "Wir müssen KI sofort abschalten",
+                    "Wir brauchen gar keine Regeln",
+                    "Die Notwendigkeit einer ethischen Regulierung",
+                    "KI wird den Menschen ersetzen"
+                ],
+                "answer": 2
+            },
+            {
+                "q": "Was soll dieser normative Rahmen sicherstellen?",
+                "options": [
+                    "Dass Innovation verbotet wird",
+                    "Dass KI fundamentalen humanistischen Werten verpflichtet bleibt",
+                    "Dass KI die Weltherrschaft übernimmt",
+                    "Dass KI menschlich aussieht"
+                ],
+                "answer": 1
+            }
+        ],
+        [
+            {
+                "q": "Mit welchem Phänomen sind Industrienationen konfrontiert?",
+                "options": [
+                    "Inflation",
+                    "Klimawandel",
+                    "Der demografische Wandel",
+                    "Überbevölkerung"
+                ],
+                "answer": 2
+            },
+            {
+                "q": "Durch welche zwei Faktoren ist der demografische Wandel primär gekennzeichnet?",
+                "options": [
+                    "Steigende Lebenserwartung und gesunkene Geburtenrate",
+                    "Mehr Migration und weniger Arbeit",
+                    "Höhere Löhne und mehr Technik",
+                    "Mehr Schulen und weniger Universitäten"
+                ],
+                "answer": 0
+            },
+            {
+                "q": "Was gerät infolgedessen massiv unter Druck?",
+                "options": [
+                    "Die Automobilindustrie",
+                    "Die sozialen Sicherungssysteme",
+                    "Die Universitäten",
+                    "Die Fluggesellschaften"
+                ],
+                "answer": 1
+            },
+            {
+                "q": "Wie funktioniert das geltende System der Rentenversicherung grob?",
+                "options": [
+                    "Jeder spart für sich selbst",
+                    "Der Staat bezahlt alles aus Steuern",
+                    "Eine schrumpfende erwerbstätige Generation zahlt für Rentner (Umlageverfahren)",
+                    "Es gibt keine Rente"
+                ],
+                "answer": 2
+            },
+            {
+                "q": "Welcher Mangel akzentuiert sich in der Wirtschaft?",
+                "options": [
+                    "Der Materialmangel",
+                    "Der Fachkräftemangel",
+                    "Der Geldmangel",
+                    "Der Platzmangel"
+                ],
+                "answer": 1
+            },
+            {
+                "q": "Was müssen Unternehmen tun, um ihre Wettbewerbsfähigkeit zu erhalten?",
+                "options": [
+                    "Sie ringen um qualifiziertes Personal",
+                    "Sie schließen Filialen",
+                    "Sie erhöhen die Preise",
+                    "Sie reduzieren die Qualität"
+                ],
+                "answer": 0
+            },
+            {
+                "q": "Welcher gesellschaftlich kontroverse Lösungsansatz wird genannt?",
+                "options": [
+                    "Steuern abschaffen",
+                    "Heraufsetzung des Renteneintrittsalters",
+                    "Mehr Urlaub stage",
+                    "Weniger Schulen"
+                ],
+                "answer": 1
+            },
+            {
+                "q": "Soll der demografische Wandel laut Text ausschließlich negativ gesehen werden?",
+                "options": [
+                    "Ja, absolut",
+                    "Nein, er darf nicht ausschließlich als defizitär betrachtet werden",
+                    "Der Text sagt dazu nichts",
+                    "Ja, er ist eine Katastrophe"
+                ],
+                "answer": 1
+            },
+            {
+                "q": "Worauf richtet sich die sogenannte 'Silver Economy' aus?",
+                "options": [
+                    "Auf Silberabbau",
+                    "Auf Edelmetalle",
+                    "Auf Produkte und Dienstleistungen für ältere Konsumenten",
+                    "Auf Jugendliche"
+                ],
+                "answer": 2
+            },
+            {
+                "q": "Welches gesellschaftliche Potenzial birgt die Alterung zudem?",
+                "options": [
+                    "Weniger Autoverkehr",
+                    "Den intergenerationellen Erfahrungsaustausch",
+                    "Schnelleres Internet",
+                    "Mehr Wohnraum"
+                ],
+                "answer": 1
+            }
+        ],
+        [
+            {
+                "q": "Wie wird Sprache im ersten Satz beschrieben?",
+                "options": [
+                    "Als unveränderliches Regelwerk",
+                    "Als statisches Konstrukt",
+                    "Als dynamischer Organismus",
+                    "Als ein historisches Überbleibsel"
+                ],
+                "answer": 2
+            },
+            {
+                "q": "Wie bewerten Traditionalisten den Sprachwandel oftmals?",
+                "options": [
+                    "Als bereichernder Prozess",
+                    "Als notwendige Anpassung",
+                    "Als linguistischer Fortschritt",
+                    "Als Sprachverfall"
+                ],
+                "answer": 3
+            },
+            {
+                "q": "Wie sieht die Linguistik den Sprachwandel?",
+                "options": [
+                    "Als unabdingbaren Prozess",
+                    "Als Fehler im System",
+                    "Als Problem",
+                    "Als völlig zufällig"
+                ],
+                "answer": 0
+            },
+            {
+                "q": "Welcher Einflusskatalysator für Anglizismen wird genannt?",
+                "options": [
+                    "Die französische Literatur",
+                    "Die Globalisierung",
+                    "Der Schulunterricht",
+                    "Das Fernsehen der 80er"
+                ],
+                "answer": 1
+            },
+            {
+                "q": "Wie werden Begriffe aus bestimmten Bereichen oft in den Wortschatz aufgenommen?",
+                "options": [
+                    "Teils unreflektiert",
+                    "Immer streng geprüft",
+                    "Nur nach Übersetzung",
+                    "Gar nicht"
+                ],
+                "answer": 0
+            },
+            {
+                "q": "Welche hochgradig polarisierende Debatte thematisiert der Text?",
+                "options": [
+                    "Die neue Rechtschreibung",
+                    "Die Dialektforschung",
+                    "Geschlechtersensible Sprache",
+                    "Fremdsprachen an Schulen"
+                ],
+                "answer": 2
+            },
+            {
+                "q": "Welches Modifikationsbeispiel der geschlechtersensiblen Sprache wird genannt?",
+                "options": [
+                    "Das Gendersternchen",
+                    "Neue Pronomen",
+                    "Abschaffung von Nomen",
+                    "Nur noch Englisch sprechen"
+                ],
+                "answer": 0
+            },
+            {
+                "q": "Was kritisieren die Verfechter der Konvention daran am meisten?",
+                "options": [
+                    "Es ist zu schwer",
+                    "Den Widerstand gegen grammatische Konvention und Ästhetik",
+                    "Es ist zu teuer",
+                    "Es ist unmodern"
+                ],
+                "answer": 1
+            },
+            {
+                "q": "Wofür ist Sprache laut Text stets ein Seismograph?",
+                "options": [
+                    "Für Erdbeben",
+                    "Für soziale, politische und kulturelle Verschiebungen",
+                    "Für das Wetter",
+                    "Für wirtschaftlichen Erfolg"
+                ],
+                "answer": 1
+            },
+            {
+                "q": "Was entscheidet letztendlich über den Erfolg sprachlicher Neuerungen?",
+                "options": [
+                    "Der Staat",
+                    "Die normative Kraft des Faktischen im allgemeinen Usus",
+                    "Der Duden",
+                    "Die Wissenschaftler"
+                ],
+                "answer": 1
+            }
+        ],
+        [
+            {
+                "q": "Wer dominierte lange Zeit die Erforschung des Weltraums?",
+                "options": [
+                    "Privatunternehmen",
+                    "Staatliche Raumfahrtbehörden",
+                    "Universitäten",
+                    "Das Militär alleine"
+                ],
+                "answer": 1
+            },
+            {
+                "q": "Aus welchem historischen Kontext stammten primär die staatlichen Raumfahrtmotive?",
+                "options": [
+                    "Zweiter Weltkrieg",
+                    "Kolonialismus",
+                    "Kalter Krieg",
+                    "Industrielle Revolution"
+                ],
+                "answer": 2
+            },
+            {
+                "q": "Wie wird die derzeitige Entwicklung in der Raumfahrt genannt?",
+                "options": [
+                    "Aero Space",
+                    "Old Space",
+                    "Deep Space",
+                    "New Space"
+                ],
+                "answer": 3
+            },
+            {
+                "q": "Was haben visionäre Unternehmer geschafft?",
+                "options": [
+                    "Die horrenden Kosten drastisch zu reduzieren",
+                    "Den Mond zu bevölkern",
+                    "Außerirdisches Leben zu finden",
+                    "Die Schwerkraft aufzuheben"
+                ],
+                "answer": 0
+            },
+            {
+                "q": "Welche technische Innovation wird als Beispiel für Kostenreduktion genannt?",
+                "options": [
+                    "Sonnenenergie",
+                    "Wiederverwendbare Trägersysteme",
+                    "Schnellere Computer",
+                    "Leichtere Metalle"
+                ],
+                "answer": 1
+            },
+            {
+                "q": "Was ist das utopisch anmutende Ziel einiger Unternehmen?",
+                "options": [
+                    "Eine Sonne zu bauen",
+                    "Asteroiden-Bergbau",
+                    "Kommunikation mit Aliens",
+                    "Zeitreisen"
+                ],
+                "answer": 1
+            },
+            {
+                "q": "Für wen ist der aufkommende Weltraumtourismus gedacht?",
+                "options": [
+                    "Für Wissenschaftler",
+                    "Für betuchte Privatpersonen",
+                    "Für alle Bürger",
+                    "Für das Militär"
+                ],
+                "answer": 1
+            },
+            {
+                "q": "Welches virulente Risiko wird explizit genannt?",
+                "options": [
+                    "Aliens",
+                    "Weltraumtrümmer (Space Debris)",
+                    "Sonnenstürme",
+                    "Schwarze Löcher"
+                ],
+                "answer": 1
+            },
+            {
+                "q": "Was bedrohen diese Weltraumtrümmer?",
+                "options": [
+                    "Die Erde direkt",
+                    "Die Sonne",
+                    "Strategisch wichtige Umlaufbahnen",
+                    "Den Mond"
+                ],
+                "answer": 2
+            },
+            {
+                "q": "Woran mangelt es im All eklatant?",
+                "options": [
+                    "An einem verbindlichen völkerrechtlichen Rahmen",
+                    "An Technologie",
+                    "An Geld",
+                    "An Sauerstoff für Maschinen"
+                ],
+                "answer": 0
+            }
+        ],
+        [
+            {
+                "q": "Welche antike philosophische Strömung erlebt eine Renaissance?",
+                "options": [
+                    "Der Platonismus",
+                    "Der Stoizismus",
+                    "Der Epikureismus",
+                    "Die Sophistik"
+                ],
+                "answer": 1
+            },
+            {
+                "q": "In welcher Form präsentiert sich diese Lehre heute oft?",
+                "options": [
+                    "Als handlungsorientierte Lebenskunst",
+                    "Als akademisches Traktat",
+                    "Als Religion",
+                    "Als Politik"
+                ],
+                "answer": 0
+            },
+            {
+                "q": "Was ist das Kernparadigma stoischen Denkens laut Text?",
+                "options": [
+                    "Hedonismus",
+                    "Die Dichotomie der Kontrolle",
+                    "Pessimismus",
+                    "Fatalismus"
+                ],
+                "answer": 1
+            },
+            {
+                "q": "Worauf sollte der Mensch seine Ressourcen fokussieren?",
+                "options": [
+                    "Auf externe Gegebenheiten",
+                    "Auf Reichtum",
+                    "Auf Aspekte, die er autark beeinflussen kann",
+                    "Auf das Verhalten anderer"
+                ],
+                "answer": 2
+            },
+            {
+                "q": "Welche Dinge fallen in den Bereich, den man beeinflussen kann?",
+                "options": [
+                    "Das Wetter",
+                    "Schicksalsschläge",
+                    "Die eigene Haltung und persönliche Werte",
+                    "Das Agieren Dritter"
+                ],
+                "answer": 2
+            },
+            {
+                "q": "Wie sollte man mit externen Gegebenheiten umgehen?",
+                "options": [
+                    "Mit souveräner Gelassenheit",
+                    "Mit Zorn",
+                    "Man sollte sie ändern",
+                    "Man sollte darüber weinen"
+                ],
+                "answer": 0
+            },
+            {
+                "q": "Was werfen Kritiker dem modernen Stoizismus vor?",
+                "options": [
+                    "Er sei zu aggressiv",
+                    "Er fördere einen fatalistischen Rückzug ins Private",
+                    "Er sei zu politisch",
+                    "Er fordere zu viel von den Menschen"
+                ],
+                "answer": 1
+            },
+            {
+                "q": "Wozu droht der Stoizismus laut Kritikern verengt zu werden?",
+                "options": [
+                    "Zu einer neuen Weltreligion",
+                    "Zu einer extremen Diät",
+                    "Zu einem Resilienz-Training am Arbeitsplatz",
+                    "Zu einem Sportprogramm"
+                ],
+                "answer": 2
+            },
+            {
+                "q": "Was behaupten die Verfechter des modernen Stoizismus?",
+                "options": [
+                    "Innere Ruhe ist die Voraussetzung für proaktives, ethisches Handeln",
+                    "Man sollte sich nicht um Ethik kümmern",
+                    "Politik ist Zeitverschwendung",
+                    "Gefühle sind unwichtig"
+                ],
+                "answer": 0
+            },
+            {
+                "q": "Wie wurde emotionale Unerschütterlichkeit in der Antike genannt?",
+                "options": [
+                    "Empathie",
+                    "Apathie",
+                    "Sympathie",
+                    "Hysterie"
+                ],
+                "answer": 1
+            }
+        ]
+    ],
+    "C2": [
+        [
+            {
+                "q": "Welche Doppelfunktion der Literatur wird im ersten Satz postuliert?",
+                "options": [
+                    "Sie unterhält und langweilt.",
+                    "Sie kostet Geld und bringt Reichtum.",
+                    "Sie spiegelt Wirklichkeiten wider und gestaltet sie aktiv mit.",
+                    "Sie dokumentiert die Vergangenheit und die Zukunft."
+                ],
+                "answer": 2
+            },
+            {
+                "q": "Was geben Autoren den Themen, die Menschen bewegen?",
+                "options": [
+                    "Mehr Gewicht",
+                    "Eine sprachliche Form",
+                    "Eine finanzielle Bewertung",
+                    "Einen neuen Namen"
+                ],
+                "answer": 1
+            },
+            {
+                "q": "Wie verhält sich Literatur zu bestehenden Normen?",
+                "options": [
+                    "Sie reproduziert diese immer.",
+                    "Sie ignoriert sie ausnahmslos.",
+                    "Sie kann sie reproduzieren oder kritisch dekonstruieren.",
+                    "Sie verbietet sie."
+                ],
+                "answer": 2
+            },
+            {
+                "q": "Wann gewinnt die Literatur besonders an immenser Bedeutung?",
+                "options": [
+                    "In Zeiten politischer oder sozialer Umbrüche",
+                    "Nur im Winter",
+                    "Während einer stabilen Wirtschaftsphase",
+                    "Ausschließlich in Diktaturen"
+                ],
+                "answer": 0
+            },
+            {
+                "q": "Warum ist Literatur gerade in Umbruchphasen so relevant?",
+                "options": [
+                    "Weil sie lange Sätze hat",
+                    "Weil sie die Menschen beruhigt",
+                    "Weil sie alternative Perspektiven eröffnet",
+                    "Weil Bücher dann teurer sind"
+                ],
+                "answer": 2
+            },
+            {
+                "q": "Für welche Zielgruppe bietet Literatur eine besondere didaktische Möglichkeit?",
+                "options": [
+                    "Für Muttersprachler",
+                    "Für Analphabeten",
+                    "Für fortgeschrittene Lernende",
+                    "Für Kinder"
+                ],
+                "answer": 2
+            },
+            {
+                "q": "Welches sprachliche Element können Lernende durch Literatur besonders gut üben?",
+                "options": [
+                    "Basic Vokabeln",
+                    "Feine Bedeutungsnuancen und Ironie",
+                    "Die simple Konjugation",
+                    "Zahlen und Daten"
+                ],
+                "answer": 1
+            },
+            {
+                "q": "Was bedeutet der Begriff 'intertextuelle Bezüge' im Kontext des Textes?",
+                "options": [
+                    "Verweise auf andere Texte",
+                    "Rechtschreibfehler",
+                    "Kurze Absätze",
+                    "Fehlende Wörter"
+                ],
+                "answer": 0
+            },
+            {
+                "q": "Welche Fähigkeit wird bei der Auseinandersetzung mit diesen Bezügen gefördert?",
+                "options": [
+                    "Das laute Lesen",
+                    "Das schnelle Lesen",
+                    "Das Erkennen und bewusste Einsetzen",
+                    "Das reine Auswendiglernen"
+                ],
+                "answer": 2
+            },
+            {
+                "q": "Wie kann die Rolle der Literatur am besten subsummmiert werden?",
+                "options": [
+                    "Literatur ist eine rein passive Reflexion der Gesellschaft.",
+                    "Literatur ist bedeutungslos für Sprachlerner.",
+                    "Literatur ist ein proaktives Medium gesellschaftlicher Konstruktion.",
+                    "Literatur dient vornehmlich der Ablenkung."
+                ],
+                "answer": 2
+            }
+        ],
+        [
+            {
+                "q": "Was beschreibt der Begriff der 'Postfaktizität' laut Text?",
+                "options": [
+                    "Die absolute Wahrheit",
+                    "Die Erosion des objektiven Wahrheitsbegriffs",
+                    "Einen neuen Kommunikationsstil",
+                    "Wissenschaftlichen Fortschritt"
+                ],
+                "answer": 1
+            },
+            {
+                "q": "Wann wurde 'postfaktisch' internationales Wort des Jahres?",
+                "options": [
+                    "2010",
+                    "2015",
+                    "2016",
+                    "2020"
+                ],
+                "answer": 2
+            },
+            {
+                "q": "Welche Asymmetrie konstatiert der Autor?",
+                "options": [
+                    "Affekte dominieren über empirische Evidenz",
+                    "Reiche dominieren Arme",
+                    "Text dominiert Video",
+                    "Jugend dominiert Alter"
+                ],
+                "answer": 0
+            },
+            {
+                "q": "Was büßt im öffentlichen Diskurs sukzessive an persuasiver Durchschlagskraft ein?",
+                "options": [
+                    "Bilder und Videos",
+                    "Empirische Evidenz und verifizierbare Fakten",
+                    "Emotionale Appelle",
+                    "Politische Reden"
+                ],
+                "answer": 1
+            },
+            {
+                "q": "Wer oder was katalysiert dieses Phänomen zweifelsohne?",
+                "options": [
+                    "Der Buchdruck",
+                    "Das Fernsehen",
+                    "Die inhärente Architektur sozialer Netzwerke",
+                    "Schulen und Universitäten"
+                ],
+                "answer": 2
+            },
+            {
+                "q": "Worauf sind die Algorithmen sozialer Netzwerke primär programmiert?",
+                "options": [
+                    "Auf Wahrheitsfindung",
+                    "Auf Maximierung von Nutzerbindung durch Emotionalisierung",
+                    "Auf Bildung",
+                    "Auf Entspannung der Nutzer"
+                ],
+                "answer": 1
+            },
+            {
+                "q": "Welches Phänomen führt dazu, dass sich Meinungen hermetisch selbst bestätigen?",
+                "options": [
+                    "Kognitive Dissonanz",
+                    "Brainstorming",
+                    "Die Formation sogenannter Echokammern",
+                    "Debattierclubs"
+                ],
+                "answer": 2
+            },
+            {
+                "q": "Was erodiert, wenn der Konsens über valide Fakten zerbricht?",
+                "options": [
+                    "Das Internet",
+                    "Die Prämisse deliberativer Demokratie",
+                    "Die Wirtschaft",
+                    "Die Sprache"
+                ],
+                "answer": 1
+            },
+            {
+                "q": "Wessen philosophischer Begriff wird durch manipulative Narrative obsolet gemacht?",
+                "options": [
+                    "Kants kategorischer Imperativ",
+                    "Habermas' 'zwangloser Zwang des besseren Arguments'",
+                    "Hegels Dialektik",
+                    "Nietzsches Übermensch"
+                ],
+                "answer": 1
+            },
+            {
+                "q": "Worauf muss die Restitution einer diskursiven Integrität letztlich basieren?",
+                "options": [
+                    "Auf Internetverboten",
+                    "Auf radikal geförderter hermeneutischer Kompetenz",
+                    "Auf mehr Werbung",
+                    "Auf Künstlicher Intelligenz"
+                ],
+                "answer": 1
+            }
+        ],
+        [
+            {
+                "q": "Welcher Terminus fungiert in der Spätmoderne als omnipräsenter Imperativ?",
+                "options": [
+                    "Die Effizienz",
+                    "Die Authentizität",
+                    "Die Schnelligkeit",
+                    "Die Digitalisierung"
+                ],
+                "answer": 1
+            },
+            {
+                "q": "Wonach sehnen sich die Menschen allgegenwärtig?",
+                "options": [
+                    "Nach Reichtum",
+                    "Nach dem Unverfälschten, Ursprünglichen",
+                    "Nach mehr Technologie",
+                    "Nach Konflikten"
+                ],
+                "answer": 1
+            },
+            {
+                "q": "Worin offenbart sich die Crux (das Kernproblem) dieser Entwicklung?",
+                "options": [
+                    "Dass Authentizität teuer ist",
+                    "Dass sie ihre Unschuld einbüßt, sobald sie vermarktet wird",
+                    "Dass sie leicht zu kopieren ist",
+                    "Dass niemand sie wirklich will"
+                ],
+                "answer": 1
+            },
+            {
+                "q": "Welche Industrie wird als exemplarisches Beispiel für die Kommodifizierung genannt?",
+                "options": [
+                    "Die Automobilindustrie",
+                    "Die Tourismusindustrie",
+                    "Die Lebensmittelindustrie",
+                    "Die Finanzindustrie"
+                ],
+                "answer": 1
+            },
+            {
+                "q": "In was transformiert die Tourismusindustrie das 'unberührte' Erlebnis augenblicklich?",
+                "options": [
+                    "In ein Abenteuer",
+                    "In eine Gefahr",
+                    "In eine sterilisierte Kulisse",
+                    "In ein Museum"
+                ],
+                "answer": 2
+            },
+            {
+                "q": "Als was fungiert der Authentizitätsdiskurs primär soziologisch betrachtet?",
+                "options": [
+                    "Als politisches Programm",
+                    "Als Distinktionsmerkmal einer urbanen Elite",
+                    "Als Religion",
+                    "Als medizinisches Konzept"
+                ],
+                "answer": 1
+            },
+            {
+                "q": "Wovon sucht sich diese bildungsbürgerliche Elite abzugrenzen?",
+                "options": [
+                    "Von der Natur",
+                    "Von der Massenproduktion",
+                    "Vom Ausland",
+                    "Von der Vergangenheit"
+                ],
+                "answer": 1
+            },
+            {
+                "q": "Welches Beispiel für scheinbar originäre Produkte gibt der Autor?",
+                "options": [
+                    "Handgerösteter Kaffee",
+                    "Smartphones",
+                    "Plastikflaschen",
+                    "Fast Food"
+                ],
+                "answer": 0
+            },
+            {
+                "q": "Als welches Projekt demaskiert sich das Streben nach Authentizität letztlich?",
+                "options": [
+                    "Als zutiefst philanthropisches Projekt",
+                    "Als zutiefst narzisstisches Projekt",
+                    "Als objektives Projekt",
+                    "Als irrelevant"
+                ],
+                "answer": 1
+            },
+            {
+                "q": "Was soll durch die Assimilation von Bedeutsamkeit affirmiert werden?",
+                "options": [
+                    "Die Wirtschaft",
+                    "Das handwerkliche Können",
+                    "Das eigene Ego",
+                    "Die Gesellschaft"
+                ],
+                "answer": 2
+            }
+        ],
+        [
+            {
+                "q": "Welches Konzept wird im Text in Frage gestellt?",
+                "options": [
+                    "Die Demokratie",
+                    "Die Existenz des freien Willens",
+                    "Die Schwerkraft",
+                    "Die Evolution"
+                ],
+                "answer": 1
+            },
+            {
+                "q": "Welche Disziplin fordert die philosophische Tradition hier heraus?",
+                "options": [
+                    "Die Physik",
+                    "Die Theologie",
+                    "Die neurowissenschaftliche Empirie",
+                    "Die Soziologie"
+                ],
+                "answer": 2
+            },
+            {
+                "q": "Welche provokanten Experimente aus den 1980er Jahren werden erwähnt?",
+                "options": [
+                    "Das Milgram-Experiment",
+                    "Das Stanford-Prison-Experiment",
+                    "Die Libet-Experimente",
+                    "Pawlowsche Hunde"
+                ],
+                "answer": 2
+            },
+            {
+                "q": "Was postuliert der Kerngedanke der neurobiologischen Deterministen?",
+                "options": [
+                    "Intentionen sind göttlich",
+                    "Bewusste Intentionen sind nur ein nachträgliches Epiphänomen",
+                    "Der freie Wille ist grenzenlos",
+                    "Das Bewusstsein entscheidet alles"
+                ],
+                "answer": 1
+            },
+            {
+                "q": "Wie wird menschliches Handeln bei den Deterministen betrachtet?",
+                "options": [
+                    "Als reduzierbar auf biochemische Algorithmen",
+                    "Als rein rational",
+                    "Als unvorhersehbar",
+                    "Als vom Umfeld bestimmt"
+                ],
+                "answer": 0
+            },
+            {
+                "q": "Welches gesellschaftliche System müsste laut Text bei dieser These dekonstruiert werden?",
+                "options": [
+                    "Das Bildungssystem",
+                    "Das moderne Strafrecht",
+                    "Das Wirtschaftssystem",
+                    "Das Gesundheitssystem"
+                ],
+                "answer": 1
+            },
+            {
+                "q": "Welches Konzept präsupponiert das moderne Strafrecht zwingend?",
+                "options": [
+                    "Rache",
+                    "Das Konzept der individuellen Schuld und Verantwortlichkeit",
+                    "Absolute Prävention",
+                    "Genetik"
+                ],
+                "answer": 1
+            },
+            {
+                "q": "Durch was müsste das Strafrecht laut den deterministischen Reperkussionen substituiert werden?",
+                "options": [
+                    "Durch ein rein präventives und therapeutisches Dispositionsrecht",
+                    "Durch schärfere Gesetze",
+                    "Durch bürgerliche Schiedsgerichte",
+                    "Durch das Militär"
+                ],
+                "answer": 0
+            },
+            {
+                "q": "Was monieren kompaktibilistische Denker an diesem Ansatz?",
+                "options": [
+                    "Er sei zu altmodisch",
+                    "Er verenge den Freiheitsbegriff unzulässig auf absolute Bedingungslosigkeit",
+                    "Er sei unwissenschaftlich",
+                    "Er sei zu religiös"
+                ],
+                "answer": 1
+            },
+            {
+                "q": "Worin manifestiert sich Freiheit laut der kompaktibilistischen Sichtweise?",
+                "options": [
+                    "In totaler Zufälligkeit",
+                    "In der Abwesenheit physischer Gesetze",
+                    "In der Fähigkeit zur rationalen Deliberation",
+                    "Im Nichtstun"
+                ],
+                "answer": 2
+            }
+        ],
+        [
+            {
+                "q": "Welches intellektuelle Signaturmerkmal prägt die Postmoderne?",
+                "options": [
+                    "Der Glaube an die Wissenschaft",
+                    "Das Zerwürfnis mit den 'großen Erzählungen'",
+                    "Die Rückkehr zur Religion",
+                    "Der absolute Rationalismus"
+                ],
+                "answer": 1
+            },
+            {
+                "q": "Welcher Philosoph präfigurierte diese Diagnose treffend?",
+                "options": [
+                    "Immanuel Kant",
+                    "Karl Marx",
+                    "Jean-François Lyotard",
+                    "Friedrich Nietzsche"
+                ],
+                "answer": 2
+            },
+            {
+                "q": "Was haben universalistische Konstrukte eingebüßt?",
+                "options": [
+                    "Ihre legitimatorische Kraft",
+                    "Ihren historischen Wert",
+                    "Ihre finanzielle Unterstützung",
+                    "Ihre sprachliche Form"
+                ],
+                "answer": 0
+            },
+            {
+                "q": "Was tritt an die Stelle der großen Erzählungen?",
+                "options": [
+                    "Eine einzige globale Wahrheit",
+                    "Eine konstitutive Pluralität heterogener Sprachspiele",
+                    "Komplettes Schweigen",
+                    "Mathematische Formeln"
+                ],
+                "answer": 1
+            },
+            {
+                "q": "Wovor will diese Fragmentierung der Wahrheit das Unterdrückte bewahren?",
+                "options": [
+                    "Vor dem Vergessen",
+                    "Vor dem Totalitätsanspruch monistischer Theorien",
+                    "Vor der Digitalisierung",
+                    "Vor der Armut"
+                ],
+                "answer": 1
+            },
+            {
+                "q": "Zwischen welchen Polen oszilliert die postmoderne Perspektive gefährlich?",
+                "options": [
+                    "Zwischen Wissenschaft und Kunst",
+                    "Zwischen Befreiung von Dogmen und desillusionierendem Werterelativismus",
+                    "Zwischen Arm und Reich",
+                    "Zwischen Ost und West"
+                ],
+                "answer": 1
+            },
+            {
+                "q": "Was droht, wenn kein Narrativ mehr Plausibilität reklamieren kann?",
+                "options": [
+                    "Ein Weltkrieg",
+                    "Ein Zustand normativer Indifferenz",
+                    "Eine neue Religion",
+                    "Finanzkollaps"
+                ],
+                "answer": 1
+            },
+            {
+                "q": "Was kann normative Indifferenz bewirken?",
+                "options": [
+                    "Wirtschaftswachstum",
+                    "Sie kann Form solidarischen politischen Engagements paralysieren",
+                    "Bessere Kunst",
+                    "Glücklichere Menschen"
+                ],
+                "answer": 1
+            },
+            {
+                "q": "Nach was sucht der aktuelle Diskurs?",
+                "options": [
+                    "Nach der einen Wahrheit",
+                    "Nach einem prekären Balanceakt zur Bewahrung ethischer Universalien",
+                    "Nach mehr Technologie",
+                    "Nach Isolation"
+                ],
+                "answer": 1
+            },
+            {
+                "q": "In welche Falle darf dabei nicht regrediert werden?",
+                "options": [
+                    "In die Falle überwundener totalitärer Denkstrukturen",
+                    "In die Falle des Kapitalismus",
+                    "In die Falle der Technologiefeindlichkeit",
+                    "In die Sprachlosigkeit"
+                ],
+                "answer": 0
+            }
+        ],
+        [
+            {
+                "q": "Was formuliert der Transhumanismus?",
+                "options": [
+                    "Eine neue Religion",
+                    "Die radikalste Utopie unserer Epoche",
+                    "Eine politische Partei",
+                    "Ein Wirtschaftssystem"
+                ],
+                "answer": 1
+            },
+            {
+                "q": "Was postuliert er als evolutionäre Pflicht des Menschen?",
+                "options": [
+                    "Zurück zur Natur zu gehen",
+                    "Biologische Limitationen durch Technologie zu überwinden",
+                    "Mehr Kinder zu bekommen",
+                    "Den Weltraum zu erforschen"
+                ],
+                "answer": 1
+            },
+            {
+                "q": "Als was begreift der Transhumanismus den homo sapiens?",
+                "options": [
+                    "Als die Krone der Schöpfung",
+                    "Als fehlgeschlagenes Experiment",
+                    "Als transitorisches Stadium der physisch-kognitiven Entwicklung",
+                    "Als Maschine"
+                ],
+                "answer": 2
+            },
+            {
+                "q": "Was umfasst die transhumanistische Agenda NICHT?",
+                "options": [
+                    "Eingriffe in die Keimbahn",
+                    "Erweiterung kognitiver Kapazitäten",
+                    "Verlangsamung des Alterungsprozesses",
+                    "Rückkehr zu vorindustrieller Landwirtschaft"
+                ],
+                "answer": 3
+            },
+            {
+                "q": "Was ist das ultimative Ziel (Singularitäts-Konzept)?",
+                "options": [
+                    "Frieden",
+                    "Die Überwindung des physischen Todes durch 'Mind Uploading'",
+                    "Reichtum für alle",
+                    "Eine globale Regierung"
+                ],
+                "answer": 1
+            },
+            {
+                "q": "Was befürchten Bioethiker als Resultat?",
+                "options": [
+                    "Das Ende des Internets",
+                    "Die Aufspaltung der Spezies in eine genetisch optimierte Elite und subalterne Klasse",
+                    "Dass Maschinen streiken",
+                    "Zu hohe Steuern"
+                ],
+                "answer": 1
+            },
+            {
+                "q": "Unter welchem Deckmantel droht eine Verschärfung sozioökonomischer Ungleichheiten?",
+                "options": [
+                    "Biopolitische Selbstoptimierung",
+                    "Klimaschutz",
+                    "Wirtschaftswachstum",
+                    "Religionsfreiheit"
+                ],
+                "answer": 0
+            },
+            {
+                "q": "Worin kulminiert die philosophische Aporetik (Aussichtslosigkeit) des Transhumanismus?",
+                "options": [
+                    "In der Finanzierungsfrage",
+                    "In der Frage, ob die Überwindung der menschlichen Kondition das Humane selbst liquidiert",
+                    "In technischer Unmachbarkeit",
+                    "Im Widerstand der Kirchen"
+                ],
+                "answer": 1
+            },
+            {
+                "q": "Was gehört laut dem letzten Satz zur 'menschlichen Kondition'?",
+                "options": [
+                    "Reichtum und Macht",
+                    "Vulnerabilität und Endlichkeit",
+                    "Logik und Vernunft",
+                    "Aggression und Krieg"
+                ],
+                "answer": 1
+            },
+            {
+                "q": "Was fürchtet die Kritik bei Erreichen totaler Perfektion?",
+                "options": [
+                    "Langeweile",
+                    "Dass der Kern dessen liquidiert wird, was uns human macht",
+                    "Dass Aliens kommen",
+                    "Dass die Erde überbevölkert wird"
+                ],
+                "answer": 1
+            }
+        ]
+    ]
+}

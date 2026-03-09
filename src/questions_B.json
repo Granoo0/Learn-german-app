@@ -1,0 +1,1230 @@
+{
+    "B1": [
+        [
+            {
+                "q": "Wann waren digitale Medien besonders unentbehrlich?",
+                "options": [
+                    "Immer",
+                    "Während der Pandemie",
+                    "Im Sommer",
+                    "Nachts"
+                ],
+                "answer": 1
+            },
+            {
+                "q": "Welcher negative Effekt wird bei Jugendlichen genannt?",
+                "options": [
+                    "Sie schlafen schlecht",
+                    "Einsamkeit und Depressionen",
+                    "Sie werden aggressiv",
+                    "Sie essen weniger"
+                ],
+                "answer": 1
+            },
+            {
+                "q": "Was verbreitet sich im Internet sehr schnell?",
+                "options": [
+                    "Viren",
+                    "Gute Nachrichten",
+                    "Falschinformationen",
+                    "Musik"
+                ],
+                "answer": 2
+            },
+            {
+                "q": "Was empfiehlt der Autor?",
+                "options": [
+                    "Das Internet zu löschen",
+                    "Einen bewussten Umgang zu entwickeln",
+                    "Nur abends online zu sein",
+                    "Mehr Videos zu schauen"
+                ],
+                "answer": 1
+            },
+            {
+                "q": "Welche Technologien verändern die Gesellschaft?",
+                "options": [
+                    "Bücher und Zeitungen",
+                    "Autos und Flugzeuge",
+                    "Soziale Netzwerke, Streaming und Smartphones",
+                    "Radio und Fernsehen"
+                ],
+                "answer": 2
+            },
+            {
+                "q": "Was ist ein Vorteil digitaler Medien?",
+                "options": [
+                    "Man wird intelligenter",
+                    "Menschen können weltweit kommunizieren",
+                    "Alles ist kostenlos",
+                    "Man braucht keinen Schlaf mehr"
+                ],
+                "answer": 1
+            },
+            {
+                "q": "Was zeigen Studien?",
+                "options": [
+                    "Internet macht glücklich",
+                    "Übermäßige Nutzung kann zu Depressionen führen",
+                    "Jeder sollte ein Smartphone haben",
+                    "Das Internet ist ungefährlich"
+                ],
+                "answer": 1
+            },
+            {
+                "q": "Was sollte man laut Text tun?",
+                "options": [
+                    "Regelmäßige Pausen einlegen",
+                    "Immer erreichbar sein",
+                    "Alle Apps löschen",
+                    "Nur eine App nutzen"
+                ],
+                "answer": 0
+            },
+            {
+                "q": "Wie soll man mit Online-Inhalten umgehen?",
+                "options": [
+                    "Man soll alles glauben",
+                    "Man soll kritisch damit umgehen",
+                    "Man soll sie ignorieren",
+                    "Man soll sie auswendig lernen"
+                ],
+                "answer": 1
+            },
+            {
+                "q": "Welche Gruppe ist laut Studien besonders gefährdet?",
+                "options": [
+                    "Kinder unter 5 Jahren",
+                    "Jugendliche",
+                    "Senioren",
+                    "Alle Erwachsenen"
+                ],
+                "answer": 1
+            }
+        ],
+        [
+            {
+                "q": "Was ist ein großer Trend in der Arbeitswelt?",
+                "options": [
+                    "Mehr Urlaub",
+                    "Das Homeoffice",
+                    "Weniger Gehalt",
+                    "Längere Arbeitszeiten"
+                ],
+                "answer": 1
+            },
+            {
+                "q": "Was sparten Arbeitnehmer durch das Homeoffice?",
+                "options": [
+                    "Strom",
+                    "Zeit und Geld für den Arbeitsweg",
+                    "Internetkosten",
+                    "Urlaubstage"
+                ],
+                "answer": 1
+            },
+            {
+                "q": "Welchen Vorteil hat das Homeoffice für Familien?",
+                "options": [
+                    "Beruf und Familie lassen sich besser vereinbaren",
+                    "Die Kinder lernen besser",
+                    "Man sieht die Familie seltener",
+                    "Es gibt mehr Streit"
+                ],
+                "answer": 0
+            },
+            {
+                "q": "Was ist ein Nachteil des Homeoffice?",
+                "options": [
+                    "Man arbeitet zu wenig",
+                    "Man verdient weniger Geld",
+                    "Der persönliche Kontakt zu den Kollegen fehlt",
+                    "Man muss oft umziehen"
+                ],
+                "answer": 2
+            },
+            {
+                "q": "Wie fühlen sich einige Menschen im Homeoffice?",
+                "options": [
+                    "Immer glücklich",
+                    "Isoliert",
+                    "Gestresst durch den Verkehr",
+                    "Gesünder"
+                ],
+                "answer": 1
+            },
+            {
+                "q": "Welches Problem haben manche im Homeoffice?",
+                "options": [
+                    "Sie finden den Computer nicht",
+                    "Berufliches von Privatem zu trennen",
+                    "Sie haben keine Kollegen",
+                    "Sie essen zu viel"
+                ],
+                "answer": 1
+            },
+            {
+                "q": "Was glauben Experten über die Zukunft?",
+                "options": [
+                    "Niemand wird mehr im Büro arbeiten",
+                    "Vollzeit-Präsenz wird zurückkehren",
+                    "Hybride Modelle werden am beliebtesten sein",
+                    "Roboter übernehmen die Arbeit"
+                ],
+                "answer": 2
+            },
+            {
+                "q": "Was bedeutet ein 'hybrides Modell' im Arbeitskontext?",
+                "options": [
+                    "Ein paar Tage im Büro und ein paar Tage zu Hause",
+                    "Halb arbeiten und halb schlafen",
+                    "Zwei Jobs gleichzeitig haben",
+                    "Nur nachts arbeiten"
+                ],
+                "answer": 0
+            },
+            {
+                "q": "Wie lässt sich die Arbeitszeit im Homeoffice oft einteilen?",
+                "options": [
+                    "Gar nicht",
+                    "Strenger als im Büro",
+                    "Flexibler",
+                    "Nur nach Vorgabe des Chefs"
+                ],
+                "answer": 2
+            },
+            {
+                "q": "Wo mussten früher fast alle Angestellten hinfahren?",
+                "options": [
+                    "Auf Geschäftsreise",
+                    "Nach Hause",
+                    "Ins Büro",
+                    "Ins Ausland"
+                ],
+                "answer": 2
+            }
+        ],
+        [
+            {
+                "q": "Was ist ein wichtiges Ziel vieler Städte?",
+                "options": [
+                    "Mehr Parkplätze bauen",
+                    "Grüner und sauberer zu werden",
+                    "Autobahnen erweitern",
+                    "Industriegebiete fördern"
+                ],
+                "answer": 1
+            },
+            {
+                "q": "Was soll ausgebaut werden, um das Auto stehen zu lassen?",
+                "options": [
+                    "Flughäfen",
+                    "Öffentliche Verkehrsmittel und Fahrräder",
+                    "Tankstellen",
+                    "Fußgängerzonen in Einkaufszentren"
+                ],
+                "answer": 1
+            },
+            {
+                "q": "Was bewirken günstige Tickets für Bus und Bahn?",
+                "options": [
+                    "Mehr Steuern",
+                    "Die Menschen nutzen weniger Autos",
+                    "Die Busse fahren schneller",
+                    "Die Städte werden reicher"
+                ],
+                "answer": 1
+            },
+            {
+                "q": "Welche positiven Effekte entstehen durch weniger Autos?",
+                "options": [
+                    "Reduzierte CO2-Emissionen und weniger Staus",
+                    "Mehr freie Straßen",
+                    "Schnellere Autos",
+                    "Mehr Unfälle"
+                ],
+                "answer": 0
+            },
+            {
+                "q": "Warum legen Städte neue Parks an?",
+                "options": [
+                    "Aus Langeweile",
+                    "Für wilde Tiere",
+                    "Um die Luftqualität zu verbessern",
+                    "Um Häuser abzureißen"
+                ],
+                "answer": 2
+            },
+            {
+                "q": "Was bieten Grünflächen den Menschen?",
+                "options": [
+                    "Arbeitsplätze",
+                    "Einen Ort zur Erholung",
+                    "Einkaufsmöglichkeiten",
+                    "Lautstärke"
+                ],
+                "answer": 1
+            },
+            {
+                "q": "Welches Thema wird neben dem Verkehr immer wichtiger?",
+                "options": [
+                    "Müllvermeidung",
+                    "Steuersenkungen",
+                    "Wohnungsbau",
+                    "Neue Schulen"
+                ],
+                "answer": 0
+            },
+            {
+                "q": "Wogegen gibt es Kampagnen?",
+                "options": [
+                    "Gegen Radsport",
+                    "Gegen Plastikmüll",
+                    "Gegen Parks",
+                    "Gegen Bäume"
+                ],
+                "answer": 1
+            },
+            {
+                "q": "Wie kann jeder Einzelne einen Beitrag leisten?",
+                "options": [
+                    "Indem er gar nichts kauft",
+                    "Durch Mülltrennung und Recycling",
+                    "Indem er wegzieht",
+                    "Indem er mit dem Auto fährt"
+                ],
+                "answer": 1
+            },
+            {
+                "q": "Was gibt es heute öfter in Städten?",
+                "options": [
+                    "Mehr Tankstellen",
+                    "Unverpackt-Läden",
+                    "Große Industrieanlagen",
+                    "Schmutzige Flüsse"
+                ],
+                "answer": 1
+            }
+        ],
+        [
+            {
+                "q": "Wofür entscheiden sich immer mehr Menschen?",
+                "options": [
+                    "Für Fast Food",
+                    "Für eine vegetarische oder vegane Ernährung",
+                    "Für mehr Fleischkonsum",
+                    "Für Diäten"
+                ],
+                "answer": 1
+            },
+            {
+                "q": "Was ist ein Grund für diese Entscheidung?",
+                "options": [
+                    "Es ist teurer",
+                    "Tierschutzgründe",
+                    "Es ist modisch",
+                    "Fleisch ist schwer zu bekommen"
+                ],
+                "answer": 1
+            },
+            {
+                "q": "Was möchten viele Vegetarier nicht?",
+                "options": [
+                    "Dass Pflanzen leiden",
+                    "Dass Tiere für ihre Nahrung leiden oder sterben",
+                    "Dass sie kochen müssen",
+                    "Dass andere Fleisch essen"
+                ],
+                "answer": 1
+            },
+            {
+                "q": "Welcher Aspekt steht für manche im Vordergrund?",
+                "options": [
+                    "Der Geschmack",
+                    "Der gesundheitliche Aspekt",
+                    "Der finanzielle Aspekt",
+                    "Der soziale Status"
+                ],
+                "answer": 1
+            },
+            {
+                "q": "Was kann eine ausgewogene vegetarische Ernährung bewirken?",
+                "options": [
+                    "Das Risiko für bestimmte Krankheiten senken",
+                    "Man wird immer krank",
+                    "Man muss mehr Sport machen",
+                    "Man nimmt automatisch ab"
+                ],
+                "answer": 0
+            },
+            {
+                "q": "Welche Rolle spielt der Klimaschutz?",
+                "options": [
+                    "Gar keine",
+                    "Eine kleine",
+                    "Eine große Rolle",
+                    "Nur in manchen Ländern"
+                ],
+                "answer": 2
+            },
+            {
+                "q": "Was verursacht die Fleischproduktion in großen Mengen?",
+                "options": [
+                    "Grüne Wälder",
+                    "Treibhausgase",
+                    "Gesundes Essen",
+                    "Günstigere Preise"
+                ],
+                "answer": 1
+            },
+            {
+                "q": "Was benötigt die Fleischproduktion zudem in hohem Maße?",
+                "options": [
+                    "Plastik",
+                    "Viel Wasser und Land",
+                    "Weniger Energie",
+                    "Künstliche Sonne"
+                ],
+                "answer": 1
+            },
+            {
+                "q": "Wie hat der Markt auf den vegetarischen Trend reagiert?",
+                "options": [
+                    "Durch Schließung von Geschäften",
+                    "Mit einer großen Auswahl an Alternativprodukten",
+                    "Mit teureren Preisen",
+                    "Mit Verboten"
+                ],
+                "answer": 1
+            },
+            {
+                "q": "Wo findet man diese Alternativprodukte?",
+                "options": [
+                    "Nur in speziellen Bioläden",
+                    "In fast jedem Supermarkt",
+                    "Auf dem Schwarzmarkt",
+                    "Nur online"
+                ],
+                "answer": 1
+            }
+        ],
+        [
+            {
+                "q": "Wie waren Auslandsreisen vor einigen Jahrzehnten?",
+                "options": [
+                    "Immer günstig",
+                    "Teuer und oft ein großes Abenteuer",
+                    "Sehr kurz",
+                    "Nur für Politiker"
+                ],
+                "answer": 1
+            },
+            {
+                "q": "Wo musste man früher eine Reise buchen?",
+                "options": [
+                    "Im Internet",
+                    "Im Supermarkt",
+                    "Im Reisebüro",
+                    "Beim Nachbarn"
+                ],
+                "answer": 2
+            },
+            {
+                "q": "Wodurch ist das Reisen heute einfacher und billiger geworden?",
+                "options": [
+                    "Durch mehr Flugzeuge",
+                    "Durch das Internet",
+                    "Durch bessere Straßen",
+                    "Durch Züge"
+                ],
+                "answer": 1
+            },
+            {
+                "q": "Was kann man heute mit wenigen Klicks tun?",
+                "options": [
+                    "Flüge, Hotels und Mietwagen vergleichen und buchen",
+                    "Ein neues Land erschaffen",
+                    "Ohne Pass verreisen",
+                    "Die Zeit zurückdrehen"
+                ],
+                "answer": 0
+            },
+            {
+                "q": "Wobei helfen Smartphone-Apps vor Ort?",
+                "options": [
+                    "Nur beim Spielen",
+                    "Beim Kochen",
+                    "Bei der Orientierung und der Übersetzung",
+                    "Beim Autofahren ohne Führerschein"
+                ],
+                "answer": 2
+            },
+            {
+                "q": "Worunter leiden berühmte Städte und Regionen heute?",
+                "options": [
+                    "Unter Kälte",
+                    "Unter Massentourismus",
+                    "Unter zu wenig Besuchern",
+                    "Unter schlechtem Essen"
+                ],
+                "answer": 1
+            },
+            {
+                "q": "Wer leidet unter steigenden Mieten und überfüllten Straßen?",
+                "options": [
+                    "Die Einheimischen",
+                    "Nur die Tiere",
+                    "Die Touristen selbst",
+                    "Die Fluggesellschaften"
+                ],
+                "answer": 0
+            },
+            {
+                "q": "Welcher Begriff wird als Gegenpol zum Massentourismus genannt?",
+                "options": [
+                    "Schneller Tourismus",
+                    "Teurer Tourismus",
+                    "Sanfter Tourismus",
+                    "Kalter Tourismus"
+                ],
+                "answer": 2
+            },
+            {
+                "q": "Wie sollen Touristen in Zukunft reisen?",
+                "options": [
+                    "Umweltbewusster",
+                    "Mit mehr Gepäck",
+                    "Nur noch virtuell",
+                    "Mit dem Auto"
+                ],
+                "answer": 0
+            },
+            {
+                "q": "Was sollen Touristen respektieren?",
+                "options": [
+                    "Die fremde Sprache",
+                    "Die lokale Kultur",
+                    "Ausschließlich die Polizei",
+                    "Nur das Hotelpersonal"
+                ],
+                "answer": 1
+            }
+        ],
+        [
+            {
+                "q": "Was bedeutet das Erlernen einer Fremdsprache laut Text?",
+                "options": [
+                    "Es geht schnell",
+                    "Es ist eine Herausforderung, die Zeit und Mühe kostet",
+                    "Es ist einfach",
+                    "Es ist nur für junge Menschen"
+                ],
+                "answer": 1
+            },
+            {
+                "q": "Welcher offensichtliche Grund für das Lernen wird genannt?",
+                "options": [
+                    "Mann kann mehr Bücher lesen",
+                    "Die Reiseerleichterung",
+                    "Man sieht besser aus",
+                    "Man verdient automatisch mehr"
+                ],
+                "answer": 1
+            },
+            {
+                "q": "Was ist der Vorteil von Sprachkenntnissen im Urlaub?",
+                "options": [
+                    "Man bekommt Rabatte",
+                    "Man kann sich besser orientieren und in die Kultur eintauchen",
+                    "Man wird nicht kontrolliert",
+                    "Das Essen schmeckt besser"
+                ],
+                "answer": 1
+            },
+            {
+                "q": "Welche Rolle spielen Fremdsprachen im Berufsleben?",
+                "options": [
+                    "Sie sind unwichtig",
+                    "Sie sind heute oft eine Grundvoraussetzung",
+                    "Sie sind verboten",
+                    "Sie sind nur für Dolmetscher nötig"
+                ],
+                "answer": 1
+            },
+            {
+                "q": "Welche Sprache wird im beruflichen Kontext besonders hervorgehoben?",
+                "options": [
+                    "Französisch",
+                    "Spanisch",
+                    "Englisch",
+                    "Chinesisch"
+                ],
+                "answer": 2
+            },
+            {
+                "q": "Was eröffnen Sprachen in internationalen Unternehmen?",
+                "options": [
+                    "Neue Hobbys",
+                    "Karrierechancen",
+                    "Längere Urlaube",
+                    "Weniger Arbeit"
+                ],
+                "answer": 1
+            },
+            {
+                "q": "Gibt es neben beruflichen auch andere Vorteile?",
+                "options": [
+                    "Nein",
+                    "Ja, finanzielle Vorteile",
+                    "Ja, kognitive Vorteile",
+                    "Ja, physische Stärke"
+                ],
+                "answer": 2
+            },
+            {
+                "q": "Was macht das Lernen von Sprachen mit dem Gehirn?",
+                "options": [
+                    "Es macht es langsamer",
+                    "Es trainiert das Gehirn",
+                    "Es macht es müde",
+                    "Es hat keinen Einfluss"
+                ],
+                "answer": 1
+            },
+            {
+                "q": "Welche Fähigkeit wird laut Studien durch Sprachenlernen verbessert?",
+                "options": [
+                    "Das Gehör",
+                    "Das Sehvermögen",
+                    "Das Gedächtnis",
+                    "Der Geschmackssinn"
+                ],
+                "answer": 2
+            },
+            {
+                "q": "Welchen Effekt kann das Sprachenlernen im Alter haben?",
+                "options": [
+                    "Man sieht jünger aus",
+                    "Es kann den geistigen Verfall im Alter verzögern",
+                    "Man kann besser laufen",
+                    "Man braucht weniger Schlaf"
+                ],
+                "answer": 1
+            }
+        ]
+    ],
+    "B2": [
+        [
+            {
+                "q": "Womit beschäftigen sich immer mehr Menschen?",
+                "options": [
+                    "Mit neuen Autos",
+                    "Mit der Frage, den Alltag nachhaltiger zu gestalten",
+                    "Mit Politik",
+                    "Mit teurer Mode"
+                ],
+                "answer": 1
+            },
+            {
+                "q": "Wie viel Plastik verwenden viele Menschen heute?",
+                "options": [
+                    "Gleich viel",
+                    "Weniger Plastik",
+                    "Viel mehr",
+                    "Sie wissen es nicht"
+                ],
+                "answer": 1
+            },
+            {
+                "q": "Was nehmen viele zum Einkaufen mit?",
+                "options": [
+                    "Einen Koffer",
+                    "Eine eigene Stofftasche",
+                    "Papiertüten aus dem Supermarkt",
+                    "Eine Plastiktüte"
+                ],
+                "answer": 1
+            },
+            {
+                "q": "Welche Art von Flaschen kaufen manche Menschen bevorzugt?",
+                "options": [
+                    "Plastikflaschen",
+                    "Aluminiumdosen",
+                    "Glasflaschen",
+                    "Tonkrüge"
+                ],
+                "answer": 2
+            },
+            {
+                "q": "Worauf achten manche Leute beim Essen?",
+                "options": [
+                    "Auf regionale und saisonale Produkte",
+                    "Dass es teuer ist",
+                    "Dass es aus dem Ausland kommt",
+                    "Dass es kalorienarm ist"
+                ],
+                "answer": 0
+            },
+            {
+                "q": "Was spart der Kauf regionaler Produkte?",
+                "options": [
+                    "Steuern",
+                    "Zeit beim Einkaufen",
+                    "Lange Transportwege",
+                    "Wasser"
+                ],
+                "answer": 2
+            },
+            {
+                "q": "Wen unterstützt man, wenn man regional kauft?",
+                "options": [
+                    "Lokale Bauern",
+                    "Die Regierung",
+                    "Große Supermarktketten",
+                    "Die Nachbarn"
+                ],
+                "answer": 0
+            },
+            {
+                "q": "Was sagt der Text über drastische Veränderungen aus?",
+                "options": [
+                    "Es ist das Wichtigste",
+                    "Es ist nicht immer leicht, alles sofort zu ändern",
+                    "Das kann jeder",
+                    "Es macht Spaß"
+                ],
+                "answer": 1
+            },
+            {
+                "q": "Wie sollte man sein Verhalten anpassen?",
+                "options": [
+                    "Sehr schnell",
+                    "Gar nicht",
+                    "Schritt für Schritt",
+                    "Nur manchmal"
+                ],
+                "answer": 2
+            },
+            {
+                "q": "Was ist die Kernaussage des Textes über Nachhaltigkeit?",
+                "options": [
+                    "Kleine Veränderungen machen bereits einen großen Unterschied.",
+                    "Es ist unwichtig.",
+                    "Man sollte alles dem Staat überlassen.",
+                    "Nachhaltigkeit betrifft nur Reiche."
+                ],
+                "answer": 0
+            }
+        ],
+        [
+            {
+                "q": "Was versteht man unter Globalisierung laut Text?",
+                "options": [
+                    "Die weltweite Verflechtung in mehreren Bereichen",
+                    "Nur internationalen Handel",
+                    "Die Erfindung des Internets",
+                    "Die Trennung der Kontinente"
+                ],
+                "answer": 0
+            },
+            {
+                "q": "Welcher Faktor beschleunigt den Globalisierungsprozess besonders?",
+                "options": [
+                    "Das Wetter",
+                    "Der technologische Fortschritt",
+                    "Politische Wahlen",
+                    "Längere Urlaube"
+                ],
+                "answer": 1
+            },
+            {
+                "q": "Was betonen die Befürworter der Globalisierung?",
+                "options": [
+                    "Umweltprobleme",
+                    "Wirtschaftliche Vorteile",
+                    "Hohe Preise",
+                    "Den Stress am Arbeitsplatz"
+                ],
+                "answer": 1
+            },
+            {
+                "q": "Welcher wirtschaftliche Vorteil wird erwähnt?",
+                "options": [
+                    "Mehr Steuern",
+                    "Ein größeres Warenangebot für Verbraucher",
+                    "Weniger Konkurrenz",
+                    "Höhere Löhne überall"
+                ],
+                "answer": 1
+            },
+            {
+                "q": "Was weisen Kritiker hinauf?",
+                "options": [
+                    "Positive Nebeneffekte",
+                    "Negative Begleiterscheinungen",
+                    "Die tollen Produkte",
+                    "Die schnellen Schiffe"
+                ],
+                "answer": 1
+            },
+            {
+                "q": "Wozu kann der verschärfte internationale Wettbewerb führen?",
+                "options": [
+                    "Zu Arbeitsplatzverlusten in bestimmten Branchen",
+                    "Zu mehr Urlaub",
+                    "Zur sofortigen Harmonie",
+                    "Zu kleineren Unternehmen"
+                ],
+                "answer": 0
+            },
+            {
+                "q": "Wer profitiert laut Kritikern oft auf Kosten von Umwelt und Arbeitnehmern?",
+                "options": [
+                    "Die Verbraucher",
+                    "Lokale Händler",
+                    "Große multinationale Konzerne",
+                    "Die Regierungen"
+                ],
+                "answer": 2
+            },
+            {
+                "q": "Was wird als kulturelle Sorge der Globalisierung genannt?",
+                "options": [
+                    "Zu viele verschiedene Sprachen",
+                    "Ein Verlust regionaler Kulturen und Traditionen",
+                    "Das Verschwinden des Theaters",
+                    "Dass Menschen keine Musik mehr hören"
+                ],
+                "answer": 1
+            },
+            {
+                "q": "Wodurch wird dieser Verlust befürchtet?",
+                "options": [
+                    "Durch zu viel Sport",
+                    "Durch eine weltweite Angleichung der Lebensstile",
+                    "Durch Kriege",
+                    "Durch zu viele Sprachen"
+                ],
+                "answer": 1
+            },
+            {
+                "q": "Welche Debatte bleibt laut Text hochaktuell?",
+                "options": [
+                    "Wie Globalisierung gerechter gestaltet werden kann.",
+                    "Wann die Globalisierung stoppt.",
+                    "Wie man ohne Internet lebt.",
+                    "Wie man Globalisierung völlig verhindert."
+                ],
+                "answer": 0
+            }
+        ],
+        [
+            {
+                "q": "Wovon wird unser Alltag zu einem großen Teil bestimmt?",
+                "options": [
+                    "Von den Medien",
+                    "Von Zufällen",
+                    "Von Gewohnheiten",
+                    "Vom Wetter"
+                ],
+                "answer": 2
+            },
+            {
+                "q": "Welcher Anteil unseres Handelns beruht auf automatisierten Mustern?",
+                "options": [
+                    "Zehn Prozent",
+                    "Fast die Hälfte",
+                    "Alles",
+                    "Nichts"
+                ],
+                "answer": 1
+            },
+            {
+                "q": "Was passiert mit dem Gehirn durch Gewohnheiten?",
+                "options": [
+                    "Es wird belastet",
+                    "Es entlastet das Gehirn",
+                    "Es schläft ein",
+                    "Es wächst"
+                ],
+                "answer": 1
+            },
+            {
+                "q": "Warum ist die Automatisierung alltäglicher Aufgaben nützlich?",
+                "options": [
+                    "Um schneller zu laufen",
+                    "Wir sparen mentale Energie für komplexere Entscheidungen",
+                    "Um nicht zu denken",
+                    "Wir sparen Geld"
+                ],
+                "answer": 1
+            },
+            {
+                "q": "In welche Teile lässt sich die Gewohnheitsbildung unterteilen?",
+                "options": [
+                    "Anfang, Mitte, Ende",
+                    "Gedanke, Wort, Tat",
+                    "Auslöser, Handlung, Belohnung",
+                    "Schlafen, Essen, Trinken"
+                ],
+                "answer": 2
+            },
+            {
+                "q": "Für welche Arten von Gewohnheiten gilt dieser Mechanismus?",
+                "options": [
+                    "Nur für positive",
+                    "Nur für negative",
+                    "Für positive und negative Gewohnheiten",
+                    "Für keine von beiden"
+                ],
+                "answer": 2
+            },
+            {
+                "q": "Was braucht man anfangs, um Gewohnheiten zu verändern?",
+                "options": [
+                    "Viel Geld",
+                    "Einen Arzt",
+                    "Viel Willenskraft",
+                    "Nur Glück"
+                ],
+                "answer": 2
+            },
+            {
+                "q": "Reicht es aus, eine schlechte Gewohnheit nur unterdrücken zu wollen?",
+                "options": [
+                    "Ja, immer",
+                    "Nein, es reicht oft nicht",
+                    "Nur bei Rauchern",
+                    "Nur am Wochenende"
+                ],
+                "answer": 1
+            },
+            {
+                "q": "Was ist laut Text viel effektiver als Unterdrückung?",
+                "options": [
+                    "Das Problem zu ignorieren",
+                    "Die Handlung durch eine neue, positive Routine zu ersetzen",
+                    "Darüber zu schimpfen",
+                    "Medikamente zu nehmen"
+                ],
+                "answer": 1
+            },
+            {
+                "q": "Welches Beispiel für eine alltägliche, automatisierte Aufgabe wird genannt?",
+                "options": [
+                    "Zähneputzen",
+                    "Einen Roman schreiben",
+                    "Ein Haus bauen",
+                    "Eine neue Sprache lernen"
+                ],
+                "answer": 0
+            }
+        ],
+        [
+            {
+                "q": "Welches Konzept hat enorm an Bedeutung gewonnen?",
+                "options": [
+                    "Das lebenslange Lernen",
+                    "Das kurze Arbeiten",
+                    "Das frühe Aufstehen",
+                    "Das lange Schlafen"
+                ],
+                "answer": 0
+            },
+            {
+                "q": "Wann war das Lernen früher oft abgeschlossen?",
+                "options": [
+                    "Nach der Kindergartenzeit",
+                    "Mit dem Schulabschluss oder Ende des Studiums",
+                    "Als man 30 wurde",
+                    "Es war nie abgeschlossen"
+                ],
+                "answer": 1
+            },
+            {
+                "q": "Warum veralten fachliche Qualifikationen heute so schnell?",
+                "options": [
+                    "Weil die Menschen vergessen",
+                    "Wegen der sich rapide verändernden Wissensgesellschaft",
+                    "Weil die Lehrer schlechter sind",
+                    "Weil die Schulen schlechter sind"
+                ],
+                "answer": 1
+            },
+            {
+                "q": "Welche Faktoren zwingen Arbeitnehmer zur Weiterbildung?",
+                "options": [
+                    "Geringes Gehalt",
+                    "Hohe Steuern",
+                    "Der digitale Wandel und die Automatisierung",
+                    "Das Wetter"
+                ],
+                "answer": 2
+            },
+            {
+                "q": "Umfasst lebenslanges Lernen nur die berufliche Weiterbildung?",
+                "options": [
+                    "Ja, ausschließlich",
+                    "Nein, auch die persönliche Entwicklung",
+                    "Nein, nur Sport",
+                    "Nur Sprachen"
+                ],
+                "answer": 1
+            },
+            {
+                "q": "Was ist ein Beispiel für persönliche Entwicklung laut Text?",
+                "options": [
+                    "Auto fahren lernen",
+                    "Kochen lernen",
+                    "Das Aneignen digitaler Kompetenzen",
+                    "Einkaufen gehen"
+                ],
+                "answer": 2
+            },
+            {
+                "q": "Was bringt die persönliche Weiterbildung dem Individuum?",
+                "options": [
+                    "Sie bereichert das Individuum und stärkt gesellschaftliche Teilhabe",
+                    "Sie kostet nur Geld",
+                    "Sie ist Zeitverschwendung",
+                    "Sie macht krank"
+                ],
+                "answer": 0
+            },
+            {
+                "q": "Wer ist gefordert, gute Rahmenbedingungen für Weiterbildung zu schaffen?",
+                "options": [
+                    "Nur die Schulen",
+                    "Nur die Arbeitnehmer selbst",
+                    "Unternehmen und der Staat",
+                    "Die Gewerkschaften"
+                ],
+                "answer": 2
+            },
+            {
+                "q": "Was wird als eine Möglichkeit der Unterstützung genannt?",
+                "options": [
+                    "Mehr Urlaub",
+                    "Flexible Arbeitszeiten",
+                    "Kostenlose Tablets",
+                    "Weniger Steuern"
+                ],
+                "answer": 1
+            },
+            {
+                "q": "Warum ist die Weiterbildung für die Gesellschaft wichtig?",
+                "options": [
+                    "Sie stärkt die Teilhabe",
+                    "Sie verringert Staus",
+                    "Sie macht die Straßen sicherer",
+                    "Sie schützt die Natur"
+                ],
+                "answer": 0
+            }
+        ],
+        [
+            {
+                "q": "Vor welchen Herausforderungen stehen Stadtplaner weltweit?",
+                "options": [
+                    "Bevölkerungswachstum und Klimawandel",
+                    "Zu viel Platz und Reichtum",
+                    "Zu wenig Autos",
+                    "Keine Baustoffe"
+                ],
+                "answer": 0
+            },
+            {
+                "q": "Wie soll die Stadt der Zukunft sein?",
+                "options": [
+                    "Lebenswert, nachhaltig und effizient",
+                    "Groß, laut und grau",
+                    "Dichtbebaut und teuer",
+                    "Klein und ländlich"
+                ],
+                "answer": 0
+            },
+            {
+                "q": "Welches Schlüsselkonzept wird im Text genannt?",
+                "options": [
+                    "Die Grey City",
+                    "Die Big City",
+                    "Die Smart City",
+                    "Die Old City"
+                ],
+                "answer": 2
+            },
+            {
+                "q": "Was ist das Prinzip der Smart City?",
+                "options": [
+                    "Keine Straßen mehr",
+                    "Vernetzung von Infrastruktur mittels digitaler Technologien",
+                    "Alles wird aus Holz gebaut",
+                    "Jeder darf überall parken"
+                ],
+                "answer": 1
+            },
+            {
+                "q": "Was können intelligente Ampelsysteme bewirken?",
+                "options": [
+                    "Sie spielen Musik",
+                    "Staus reduzieren und den Verkehrsfluss optimieren",
+                    "Steuern eintreiben",
+                    "Fußgänger bestrafen"
+                ],
+                "answer": 1
+            },
+            {
+                "q": "Wie sollen Gebäude zunehmend konzipiert werden?",
+                "options": [
+                    "Rund und hoch",
+                    "Günstig und einfach",
+                    "Energieautark",
+                    "Aus Glas und Stahl"
+                ],
+                "answer": 2
+            },
+            {
+                "q": "Was ist ein Beispiel für nachhaltige Gebäude?",
+                "options": [
+                    "Dicke Betonwände",
+                    "Solardächer und Fassadenbegrünungen",
+                    "Klimaanlagen in jedem Zimmer",
+                    "Keine Fenster"
+                ],
+                "answer": 1
+            },
+            {
+                "q": "Was versteht man unter 'Urban Farming'?",
+                "options": [
+                    "Das Halten von Kühen",
+                    "Lebensmittelproduktion direkt in den Ballungsräumen",
+                    "Bauern, die in die Stadt ziehen",
+                    "Gießen von Balkonpflanzen"
+                ],
+                "answer": 1
+            },
+            {
+                "q": "Was wird über den motorisierten Individualverkehr diskutiert?",
+                "options": [
+                    "Ihn kostenlos zu machen",
+                    "Ihn aus den Innenstädten zurückzudrängen",
+                    "Mehr Parkhäuser zu bauen",
+                    "Ihn zu verdoppeln"
+                ],
+                "answer": 1
+            },
+            {
+                "q": "Welchen positiven Nebeneffekt hätte weniger Autoverkehr?",
+                "options": [
+                    "Bessere Luftqualität und Förderung sozialer Interaktion",
+                    "Leisere Sirenen",
+                    "Menschen müssen weniger laufen",
+                    "Mehr Platz für Büros"
+                ],
+                "answer": 0
+            }
+        ],
+        [
+            {
+                "q": "Welchen Bereich hat die Digitalisierung unter anderem transformiert?",
+                "options": [
+                    "Nur die Musik",
+                    "Die Kunstwelt grundlegend",
+                    "Nur die Landwirtschaft",
+                    "Den Fußball"
+                ],
+                "answer": 1
+            },
+            {
+                "q": "Was verändern neue Technologien in der Kunst?",
+                "options": [
+                    "Die Farben der Bilder",
+                    "Die Art der Erschaffung, Konsum und Vertrieb",
+                    "Die Öffnungszeiten von Museen",
+                    "Die Kleidung der Künstler"
+                ],
+                "answer": 1
+            },
+            {
+                "q": "Was ermöglichen digitale Werkzeuge den Künstlern?",
+                "options": [
+                    "Völlig neue Ausdrucksmöglichkeiten",
+                    "Sie sparen viel Geld",
+                    "Kürzere Arbeitszeiten",
+                    "Sie benötigen kein Talent mehr"
+                ],
+                "answer": 0
+            },
+            {
+                "q": "Von welchen konkreten digitalen Möglichkeiten spricht der Text?",
+                "options": [
+                    "Fotografie",
+                    "3D-Modelle, Animationen oder Virtual-Reality",
+                    "Ölmalerei",
+                    "Bildhauerei"
+                ],
+                "answer": 1
+            },
+            {
+                "q": "Entsteht durch digitale Kunst ein Problem? Wenn ja, welches?",
+                "options": [
+                    "Nein",
+                    "Digitale Kunst riecht schlecht",
+                    "Die digitale Reproduzierbarkeit wirft Fragen zum Urheberrecht auf",
+                    "Niemand versteht sie"
+                ],
+                "answer": 2
+            },
+            {
+                "q": "Wie oft kann ein digitales Bild kopiert werden?",
+                "options": [
+                    "Einmal",
+                    "Zehnmal",
+                    "Unendlich oft ohne Qualitätsverlust",
+                    "Nur durch Experten"
+                ],
+                "answer": 2
+            },
+            {
+                "q": "Was ist der Trend zu 'NFTs'?",
+                "options": [
+                    "Eine neue Maltechnik",
+                    "Ein Versuch, digitale Kunst wieder einzigartig und handelbar zu machen",
+                    "Ein Museum für Computer",
+                    "Eine Steuer für Künstler"
+                ],
+                "answer": 1
+            },
+            {
+                "q": "Wo können Künstler heute ihre Werke direkt präsentieren?",
+                "options": [
+                    "Nur auf der Straße",
+                    "Auf sozialen Medien Plattformen",
+                    "Nur in Museen",
+                    "Im Fernsehen"
+                ],
+                "answer": 1
+            },
+            {
+                "q": "Wovon macht dies die Künstler unabhängiger?",
+                "options": [
+                    "Von Strom und Internet",
+                    "Von ihren Familien",
+                    "Von etablierten Galerien",
+                    "Von Kritikern"
+                ],
+                "answer": 2
+            },
+            {
+                "q": "Zu was führt diese Entwicklung am Kunstmarkt?",
+                "options": [
+                    "Zu einer Demokratisierung, aber auch zu enormem Konkurrenzdruck",
+                    "Zum Ende der Kunst",
+                    "Alle Künstler werden reich",
+                    "Galerien schließen alle"
+                ],
+                "answer": 0
+            }
+        ]
+    ]
+}
