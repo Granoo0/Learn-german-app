@@ -1,29 +1,36 @@
 import React, { useState, useEffect, useRef } from "react";
 import Btn from "../common/Btn";
 import ProgressBar from "../common/ProgressBar";
-import { VOCABULARY } from "../../data/levelData";
+import { useVocabulary } from "../../utils/useVocabulary.jsx";
 import { useTTS } from "../../utils/useTTS";
+import { useProgress } from "../../utils/useProgress.jsx";
+import { getSrsQueue, recordSrsAnswer } from "../../utils/srsStore";
 
 function TypingPractice({ level, onProgress }) {
-    const vocab = VOCABULARY[level] || [];
+    const { vocab, loading, error } = useVocabulary(level);
     const [queue, setQueue] = useState([]);
     const [currentIdx, setCurrentIdx] = useState(0);
     const [inputVal, setInputVal] = useState("");
     const [feedback, setFeedback] = useState(null); // null | "correct" | "incorrect"
     const [score, setScore] = useState(0);
     const { speak, stop, playingText } = useTTS();
+    const { addXp } = useProgress();
     const inputRef = useRef(null);
 
     useEffect(() => {
-        // Shuffle vocab for a session of 10 words
-        const shuffled = [...vocab].sort(() => 0.5 - Math.random()).slice(0, 10);
-        setQueue(shuffled);
+        if (loading || error) return;
+        
+        // Use SRS queue, fallback to random if empty
+        const srsSorted = getSrsQueue(vocab).slice(0, 5); // 5 typing words per session
+        setQueue(srsSorted);
         setCurrentIdx(0);
         setScore(0);
         setFeedback(null);
         setInputVal("");
-    }, [vocab]);
+    }, [vocab, level, loading, error]);
 
+    if (loading) return <div style={{ padding: "3rem", textAlign: "center", color: "var(--text2)" }}>Loading typing practice...</div>;
+    if (error) return <div style={{ padding: "3rem", textAlign: "center", color: "var(--incorrect)" }}>Failed to load typing data.</div>;
     if (queue.length === 0) return null;
 
     const currentWord = queue[currentIdx];
@@ -44,8 +51,10 @@ function TypingPractice({ level, onProgress }) {
             setFeedback("correct");
             setScore(s => s + 1);
             speak(currentWord.german);
+            recordSrsAnswer(currentWord.german, true);
         } else {
             setFeedback("incorrect");
+            recordSrsAnswer(currentWord.german, false);
         }
     };
 
@@ -59,6 +68,7 @@ function TypingPractice({ level, onProgress }) {
             // Finished
             setFeedback("finished");
             if (onProgress) onProgress(score > 5 ? 15 : 5);
+            addXp(score * 2); // 2 XP per correct word
         }
     };
 

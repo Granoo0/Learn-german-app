@@ -2,14 +2,35 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Badge from "../common/Badge";
 import ProgressBar from "../common/ProgressBar";
-import { LEVEL_META, VOCABULARY, FILL_BLANK, WORD_MATCH, LEVELS, GRAMMAR, QUIZZES } from "../../data/levelData";
-import { READING_QUESTIONS } from "../../data/readingQuestions";
+import { LEVEL_META, VOCAB_COUNT, LEVELS, GRAMMAR } from "../../data/levelData";
+import { useProgress } from "../../utils/useProgress.jsx";
 
 function HomePage({ progress }) {
   const levels = LEVELS;
+  const { progress: xpProgress } = useProgress();
 
   return (
     <div>
+      {/* Gamification Header */}
+      <div className="fade-up" style={{ display: "flex", justifyContent: "space-between", alignItems: "center", background: "var(--surface)", border: "1.5px solid var(--border)", borderRadius: "1rem", padding: "1rem 1.5rem", marginBottom: "2rem" }}>
+        <div style={{ display: "flex", alignItems: "center", gap: "0.75rem" }}>
+          <div style={{ fontSize: "1.8rem", filter: xpProgress.streakActiveToday ? "drop-shadow(0 0 8px rgba(240, 180, 41, 0.6))" : "grayscale(0.6) opacity(0.5)" }}>🔥</div>
+          <div>
+            <div style={{ fontSize: "0.75rem", color: "var(--text2)", textTransform: "uppercase", letterSpacing: "0.08em", fontWeight: 700 }}>Streak</div>
+            <div style={{ fontSize: "1.2rem", fontWeight: 700, color: xpProgress.streakActiveToday ? "var(--text)" : "var(--text2)" }}>{xpProgress.streak} Days</div>
+          </div>
+        </div>
+        <div style={{ display: "flex", alignItems: "center", gap: "0.75rem" }}>
+          <div style={{ fontSize: "1.8rem", filter: "drop-shadow(0 2px 4px rgba(0,0,0,0.1))" }}>⭐</div>
+          <div>
+            <div style={{ fontSize: "0.75rem", color: "var(--text2)", textTransform: "uppercase", letterSpacing: "0.08em", fontWeight: 700, textAlign: "right" }}>Daily XP</div>
+            <div style={{ fontSize: "1.2rem", fontWeight: 700, textAlign: "right" }}>
+              {xpProgress.dailyXp} <span style={{ fontSize: "0.9rem", color: "var(--text2)", fontWeight: 500 }}>/ 50</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
       {/* Hero */}
       <div style={{ textAlign: "center", padding: "2rem 0 1.5rem", position: "relative" }}>
         <div style={{ display: "inline-block", background: "var(--accent)", color: "#fff", borderRadius: "0.5rem", padding: "4px 12px", fontSize: "0.75rem", fontWeight: 700, letterSpacing: "0.12em", textTransform: "uppercase", marginBottom: "1rem" }}>Lernen mit Granit</div>
@@ -50,7 +71,7 @@ function HomePage({ progress }) {
       <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(280px, 1fr))", gap: "1rem" }}>
         {levels.map((lvl, i) => {
           const meta = LEVEL_META[lvl];
-          const vocab = VOCABULARY[lvl] || [];
+          const vocabCount = VOCAB_COUNT[lvl] || 0;
 
           const grammar = GRAMMAR[lvl] || [];
           const prog = progress[lvl] || 0;
@@ -71,7 +92,7 @@ function HomePage({ progress }) {
                   <div className="playfair" style={{ fontSize: "1.3rem", fontWeight: 700, marginBottom: "0.25rem", color: "var(--text)" }}>{meta.name}</div>
                   <p style={{ fontSize: "0.85rem", color: "var(--text2)", lineHeight: 1.5, marginBottom: "1rem", flex: 1 }}>{meta.desc}</p>
                   <div style={{ display: "flex", gap: "1rem", fontSize: "0.78rem", color: "var(--text2)", marginBottom: "0.75rem", marginTop: "auto" }}>
-                    <span>📚 {vocab.length}+ words</span>
+                    <span>📚 {vocabCount}+ words</span>
                     <span>📐 {grammar.length} grammar</span>
                     <span>🧩 50+ questions</span>
                   </div>

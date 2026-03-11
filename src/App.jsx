@@ -3,9 +3,9 @@ import { BrowserRouter as Router, Routes, Route, Link, useLocation } from "react
 import FontLink from "./styles/FontLink";
 import HomePage from "./components/layout/HomePage";
 import LevelPage from "./components/layout/LevelPage";
-import Badge from "./components/common/Badge";
 import PlacementTest from "./components/pages/PlacementTest";
 import GrammarPractice from "./components/pages/GrammarPractice";
+import { ProgressProvider } from "./utils/useProgress.jsx";
 
 function AppContent() {
   const [dark, setDark] = useState(() => {
@@ -51,9 +51,7 @@ function AppContent() {
       <nav style={{ background: "var(--surface)", borderBottom: "1px solid var(--border)", position: "sticky", top: 0, zIndex: 50 }}>
         <div style={{ maxWidth: 900, margin: "0 auto", padding: "0 1rem", display: "flex", alignItems: "center", height: "56px", gap: "1rem" }}>
           <Link to="/" style={{ background: "none", border: "none", cursor: "pointer", display: "flex", alignItems: "center", gap: "0.5rem", textDecoration: "none" }}>
-            <div style={{ width: 28, height: 28, background: "var(--accent)", borderRadius: "6px", display: "flex", alignItems: "center", justifyContent: "center" }}>
-              <span style={{ color: "#fff", fontSize: "0.9rem", fontWeight: 900, fontFamily: "Playfair Display, serif" }}>L</span>
-            </div>
+            <img src="/icon-192x192.png" alt="Lernen mit Granit Logo" style={{ width: 28, height: 28, borderRadius: "6px", objectFit: "cover" }} />
             <span className="playfair" style={{ fontSize: "1.1rem", fontWeight: 700, color: "var(--text)" }}>Lernen mit Granit</span>
           </Link>
           <div style={{ flex: 1 }} />
@@ -121,11 +119,14 @@ function AppContent() {
   );
 }
 
+
 export default function App() {
   return (
-    <Router>
-      <AppContent />
-    </Router>
+    <ProgressProvider>
+      <Router>
+        <AppContent />
+      </Router>
+    </ProgressProvider>
   );
 }
 

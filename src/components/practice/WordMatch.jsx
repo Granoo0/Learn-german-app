@@ -1,11 +1,13 @@
 import React, { useState, useEffect } from "react";
 import Btn from "../common/Btn";
 import ProgressBar from "../common/ProgressBar";
-import { WORD_MATCH } from "../../data/levelData";
+import { useVocabulary } from "../../utils/useVocabulary.jsx";
+import { useProgress } from "../../utils/useProgress.jsx";
 
 function WordMatch({ level, onProgress }) {
-  const allPairs = WORD_MATCH[level] || WORD_MATCH.A1;
-  const pairs = allPairs.slice(0, 6);
+  const { vocab, loading, error } = useVocabulary(level);
+  const [pairs, setPairs] = useState([]);
+  const [shuffledEnglish, setShuffledEnglish] = useState([]);
   const [selectedGerman, setSelectedGerman] = useState(null);
   const [selectedEnglish, setSelectedEnglish] = useState(null);
   const [matched, setMatched] = useState([]);
@@ -13,10 +15,22 @@ function WordMatch({ level, onProgress }) {
   const [done, setDone] = useState(false);
   const [score, setScore] = useState(0);
   const [attempts, setAttempts] = useState(0);
+  const { addXp } = useProgress();
 
-  const germanWords = pairs.map(p => p.german);
-  const englishWords = [...pairs.map(p => p.english)].sort(() => Math.random() - 0.5);
-  const [shuffledEnglish] = useState(englishWords);
+  const restart = () => {
+    if (!vocab || vocab.length === 0) return;
+    const shuffled = [...vocab].sort(() => 0.5 - Math.random()).slice(0, 6);
+    const newPairs = shuffled.map(w => ({ german: w.german.replace(/^(der|die|das)\s+/, ""), english: w.english }));
+    setPairs(newPairs);
+    setShuffledEnglish([...newPairs.map(p => p.english)].sort(() => 0.5 - Math.random()));
+    setMatched([]); setSelectedGerman(null); setSelectedEnglish(null); setDone(false); setScore(0); setAttempts(0);
+  };
+
+  useEffect(() => {
+    if (!loading && !error && vocab.length > 0) {
+      restart();
+    }
+  }, [level, vocab, loading, error]);
 
   useEffect(() => {
     if (selectedGerman && selectedEnglish) {
@@ -31,6 +45,7 @@ function WordMatch({ level, onProgress }) {
           setTimeout(() => {
             setDone(true);
             if (onProgress) onProgress(10);
+            addXp(pairs.length * 2); // 2 XP per pair
           }, 400);
         }
       } else {
@@ -38,9 +53,11 @@ function WordMatch({ level, onProgress }) {
         setTimeout(() => { setSelectedGerman(null); setSelectedEnglish(null); setWrong(false); }, 700);
       }
     }
-  }, [selectedGerman, selectedEnglish]);
+  }, [selectedGerman, selectedEnglish, pairs, matched, onProgress]);
 
-  const restart = () => { setMatched([]); setSelectedGerman(null); setSelectedEnglish(null); setDone(false); setScore(0); setAttempts(0); };
+  if (pairs.length === 0) return null;
+
+  const germanWords = pairs.map(p => p.german);
 
   if (done) return (
     <div style={{ textAlign: "center", padding: "2rem" }}>
@@ -52,7 +69,6 @@ function WordMatch({ level, onProgress }) {
   );
 
   const isGermanMatched = (w) => {
-    const pair = pairs.find(p => p.german === w);
     return matched.includes(w);
   };
   const isEnglishMatched = (e) => {
@@ -73,7 +89,7 @@ function WordMatch({ level, onProgress }) {
         <div style={{ display: "flex", flexDirection: "column", gap: "0.5rem" }}>
           <div style={{ fontSize: "0.75rem", color: "var(--text2)", textAlign: "center", textTransform: "uppercase", letterSpacing: "0.08em", marginBottom: "0.25rem" }}>Deutsch</div>
           {germanWords.map((w, i) => (
-            <div key={i} onClick={() => !isGermanMatched(w) && setSelectedGerman(w)} className={`match-item ${selectedGerman === w ? "selected" : ""} ${isGermanMatched(w) ? "matched" : ""}`}
+            <div key={i} onClick={() => !isGermanMatched(w) && setSelectedGerman(w)} className={`match-item ${selectedGerman === w ? "selected" : ""} ${isGermanMatched(w) ? "matched" : "hover-lift"}`}
               style={{ background: "var(--surface)", border: "1.5px solid var(--border)", borderRadius: "0.5rem", padding: "0.6rem 0.8rem", fontSize: "0.9rem", fontWeight: 500, textAlign: "center", cursor: isGermanMatched(w) ? "default" : "pointer", opacity: isGermanMatched(w) ? 0.4 : 1 }}>
               {isGermanMatched(w) ? "✓ " : ""}{w}
             </div>
@@ -82,7 +98,7 @@ function WordMatch({ level, onProgress }) {
         <div style={{ display: "flex", flexDirection: "column", gap: "0.5rem" }}>
           <div style={{ fontSize: "0.75rem", color: "var(--text2)", textAlign: "center", textTransform: "uppercase", letterSpacing: "0.08em", marginBottom: "0.25rem" }}>English</div>
           {shuffledEnglish.map((e, i) => (
-            <div key={i} onClick={() => !isEnglishMatched(e) && setSelectedEnglish(e)} className={`match-item ${selectedEnglish === e ? "selected" : ""} ${isEnglishMatched(e) ? "matched" : ""}`}
+            <div key={i} onClick={() => !isEnglishMatched(e) && setSelectedEnglish(e)} className={`match-item ${selectedEnglish === e ? "selected" : ""} ${isEnglishMatched(e) ? "matched" : "hover-lift"}`}
               style={{ background: "var(--surface)", border: "1.5px solid var(--border)", borderRadius: "0.5rem", padding: "0.6rem 0.8rem", fontSize: "0.9rem", textAlign: "center", cursor: isEnglishMatched(e) ? "default" : "pointer", opacity: isEnglishMatched(e) ? 0.4 : 1 }}>
               {isEnglishMatched(e) ? "✓ " : ""}{e}
             </div>

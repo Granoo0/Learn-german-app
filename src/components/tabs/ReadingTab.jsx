@@ -46,7 +46,7 @@ function ReadingTab({ level, onBack, onProgress }) {
             ))}
           </div>
         )}
-        <Card>
+      <Card hoverLift={false}>
           <div
             style={{
               fontSize: "0.75rem",
@@ -92,7 +92,7 @@ function ReadingTab({ level, onBack, onProgress }) {
             {reading.text}
           </div>
         </Card>
-        <Card>
+        <Card hoverLift={false}>
           <div style={{ fontSize: "0.9rem", color: "var(--text2)" }}>
             No questions available for this text yet.
           </div>
@@ -150,7 +150,7 @@ function ReadingTab({ level, onBack, onProgress }) {
           ))}
         </div>
       )}
-      <Card>
+      <Card hoverLift={false}>
         <div
           style={{
             fontSize: "0.75rem",
@@ -208,13 +208,13 @@ function ReadingTab({ level, onBack, onProgress }) {
         Comprehension Questions
       </div>
       {!questions.length ? (
-        <Card>
+        <Card hoverLift={false}>
           <div style={{ fontSize: "0.9rem", color: "var(--text2)" }}>
             No questions available for this text yet.
           </div>
         </Card>
       ) : !done ? (
-        <Card>
+        <Card hoverLift={false}>
           <div
             style={{
               display: "flex",
@@ -291,7 +291,7 @@ function ReadingTab({ level, onBack, onProgress }) {
           </div>
         </Card>
       ) : ti + 1 < readings.length ? (
-        <Card style={{ textAlign: "center" }}>
+        <Card hoverLift={false} style={{ textAlign: "center" }}>
           <div style={{ fontSize: "2rem", marginBottom: "0.5rem" }}>📖</div>
           <div
             className="playfair"
@@ -313,7 +313,7 @@ function ReadingTab({ level, onBack, onProgress }) {
           </div>
         </Card>
       ) : (
-        <Card style={{ textAlign: "center", padding: "3rem 1rem" }}>
+        <Card hoverLift={false} style={{ textAlign: "center", padding: "3rem 1rem" }}>
           <div className="pop" style={{ fontSize: "5rem", marginBottom: "1rem", filter: "drop-shadow(0 10px 20px rgba(200, 149, 44, 0.4))" }}>🏆</div>
           <div
             className="playfair"

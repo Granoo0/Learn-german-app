@@ -1,14 +1,68 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Btn from "../common/Btn";
 import { QUIZZES } from "../../data/levelData";
+import { useVocabulary } from "../../utils/useVocabulary.jsx";
+import { useProgress } from "../../utils/useProgress.jsx";
 import ProgressBar from "../common/ProgressBar";
+
 function QuizSection({ level, onProgress }) {
-  const questions = QUIZZES[level] || [];
+  const baseQuestions = QUIZZES[level] || [];
+  const { vocab, loading, error } = useVocabulary(level);
+  const [questions, setQuestions] = useState([]);
+  const { addXp } = useProgress();
   const [qi, setQi] = useState(0);
   const [selected, setSelected] = useState(null);
   const [score, setScore] = useState(0);
   const [done, setDone] = useState(false);
   const [shake, setShake] = useState(false);
+
+  const initQuiz = () => {
+    const generated = [];
+    if (vocab.length >= 4) {
+      for (let i = 0; i < 5; i++) {
+        const correct = vocab[Math.floor(Math.random() * vocab.length)];
+        const isEnToDe = Math.random() > 0.5;
+        let options = [correct];
+        let attempts = 0;
+        while (options.length < 4 && attempts < 50) {
+          attempts++;
+          const wrong = vocab[Math.floor(Math.random() * vocab.length)];
+          if (!options.find(o => o.german === wrong.german)) options.push(wrong);
+        }
+        options.sort(() => 0.5 - Math.random());
+        
+        let targetAnsText = isEnToDe ? correct.german : correct.english;
+        // Strip articles from German option choices so it's not a dead giveaway if the prompt has gender
+        const optText = (o) => isEnToDe ? o.german.replace(/^(der|die|das)\s+/, "") : o.english;
+
+        if (isEnToDe) {
+          generated.push({
+            q: `Translate: "${correct.english}"`,
+            options: options.map(optText),
+            answer: options.indexOf(correct)
+          });
+        } else {
+          generated.push({
+            q: `What does "${correct.german.replace(/^(der|die|das)\s+/, "")}" mean?`,
+            options: options.map(optText),
+            answer: options.indexOf(correct)
+          });
+        }
+      }
+    }
+    const combined = [...baseQuestions.sort(() => 0.5 - Math.random()).slice(0, 5), ...generated].sort(() => 0.5 - Math.random());
+    setQuestions(combined.length > 0 ? combined : baseQuestions);
+    setQi(0); setSelected(null); setScore(0); setDone(false);
+  };
+
+  useEffect(() => {
+    if (loading || error) return;
+    initQuiz();
+  }, [level, vocab, loading, error]);
+
+  if (loading) return <div>Loading vocabulary...</div>;
+  if (error) return <div>Error loading vocabulary.</div>;
+  if (questions.length === 0) return null;
 
   const q = questions[qi];
 
@@ -24,10 +78,11 @@ function QuizSection({ level, onProgress }) {
     else {
       setDone(true);
       if (onProgress) onProgress(10);
+      addXp(score * 2); // 2 XP per correct answer
     }
   };
 
-  const restart = () => { setQi(0); setSelected(null); setScore(0); setDone(false); };
+  const restart = () => { initQuiz(); };
 
   if (done) return (
     <div style={{ textAlign: "center", padding: "2rem", display: "flex", flexDirection: "column", gap: "1rem", alignItems: "center" }}>
@@ -69,7 +124,7 @@ function QuizSection({ level, onProgress }) {
             }
           }
           return (
-            <button key={i} onClick={() => handleSelect(i)} className={animationClass} style={{
+            <button key={i} onClick={() => handleSelect(i)} className={`${animationClass} ${selected === null ? "hover-lift" : ""}`.trim()} style={{
               boxSizing: "border-box", display: "flex", alignItems: "center",
               background: bg, border: `2px solid ${borderColor}`, color, borderRadius: "0.6rem",
               padding: "1rem", textAlign: "left", fontFamily: "IBM Plex Sans, sans-serif",

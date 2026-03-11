@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { useParams, useNavigate, Link } from "react-router-dom";
 import VocabTab from "../tabs/VocabTab";
 import GrammarTab from "../tabs/GrammarTab";

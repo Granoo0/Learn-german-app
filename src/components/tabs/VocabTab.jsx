@@ -2,20 +2,26 @@ import React, { useState } from "react";
 import Card from "../common/Card";
 import Btn from "../common/Btn";
 import FlashCard from "../practice/FlashCard";
-import { VOCABULARY } from "../../data/levelData";
+import { useVocabulary } from "../../utils/useVocabulary.jsx";
+import { getSrsQueue, recordSrsAnswer } from "../../utils/srsStore";
 import { useTTS } from "../../utils/useTTS";
+import { useProgress } from "../../utils/useProgress.jsx";
 
 function VocabTab({ level, onProgress }) {
-  const vocab = VOCABULARY[level] || [];
+  const { vocab, loading, error } = useVocabulary(level);
   const [mode, setMode] = useState("list"); // list | flash
   const [filter, setFilter] = useState("all");
   const [direction, setDirection] = useState("none");
   const { speak, stop, playingText } = useTTS();
   const [srsQueue, setSrsQueue] = useState([]);
   const [cardsSeen, setCardsSeen] = useState(0);
+  const { addXp } = useProgress();
 
   const filtered = filter === "all" ? vocab : vocab.filter(v => v.pos === filter);
   const posTypes = ["all", ...new Set(vocab.map(v => v.pos))];
+
+  if (loading) return <div style={{ padding: "3rem", textAlign: "center", color: "var(--text2)" }}>Loading vocabulary from database...</div>;
+  if (error) return <div style={{ padding: "3rem", textAlign: "center", color: "var(--incorrect)" }}>Failed to load vocabulary.</div>;
 
   return (
     <div style={{ display: "flex", flexDirection: "column", gap: "1rem" }}>
@@ -28,12 +34,8 @@ function VocabTab({ level, onProgress }) {
             setMode("flash");
             // Initialize SRS queue with filtered words
             const initialQueue = filter === "all" ? [...vocab] : vocab.filter(v => v.pos === filter);
-            // Shuffle initially
-            for (let i = initialQueue.length - 1; i > 0; i--) {
-              const j = Math.floor(Math.random() * (i + 1));
-              [initialQueue[i], initialQueue[j]] = [initialQueue[j], initialQueue[i]];
-            }
-            setSrsQueue(initialQueue);
+            // Use SRS to sort the queue, putting due words first and unseen later
+            setSrsQueue(getSrsQueue(initialQueue));
             setCardsSeen(0);
           };
           if (document.startViewTransition) document.startViewTransition(fn); else fn();
@@ -50,15 +52,18 @@ function VocabTab({ level, onProgress }) {
           direction={direction}
           onGotIt={() => {
             setDirection("left");
+            addXp(1); // 1 XP for mastering a card
             setCardsSeen(c => {
               if (c + 1 === filtered.length && onProgress) onProgress(10);
               return Math.min(c + 1, filtered.length);
             });
+            recordSrsAnswer(srsQueue[0].german, true);
             // Remove from front of queue
             setSrsQueue(q => q.slice(1));
           }}
           onStillLearning={() => {
             setDirection("right");
+            recordSrsAnswer(srsQueue[0].german, false);
             // Move item to back of queue (or insert slightly earlier if queue is long)
             setSrsQueue(q => {
               const item = q[0];
